@@ -1,16 +1,16 @@
 {
-		"url": "https://annarborgivecamp.org/",
+		"url": "https://houstongivecamp.org/",
 		"title": "Houston GiveCamp",
 		"city": "Houston",
 		"state": "TX",
 		"events":[
 			{
-				"start_date": "2018-09-14",
-				"end_date": "2018-09-16",
+				"start_date": "2017-10-21",
+				"end_date": "2017-10-23",
 				"street": "Somewhere in Texas",
 				"city": "Houston",
 				"state": "TX",
-				"postal_code": 45678
+				"postal_code": 77001
 			}
 		]
 	}

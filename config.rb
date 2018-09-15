@@ -70,7 +70,6 @@ require 'date'
      today = Date.today()
    	 prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
    	 prev_events.sort_by { |event| event.start_date || '1970-01-01' }
-   	 puts prev_events
    	 return prev_events
    end
    

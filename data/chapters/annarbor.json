@@ -2,7 +2,7 @@
 	"url": "http://annarborgivecamp.org/",
 	"title": "Ann Arbor GiveCamp",
 	"city": "Ann Arbor",
-	"state": "MI",
+	"state": "Michigan",
 	"latitude": 42.265006,
 	"longitude":  -83.666473,
 	"events":[
@@ -11,14 +11,14 @@
 			"end_date": "2018-09-16",
 			"street": "4800 E Huron River Dr",
 			"city": "Ann Arbor",
-			"state": "MI",
+			"state": "Michigan",
 			"postal_code": 48105
 		},{
 			"start_date": "2017-09-15",
 			"end_date": "2017-09-17",
 			"street": "4800 E Huron River Dr",
 			"city": "Ann Arbor",
-			"state": "MI",
+			"state": "Michigan",
 			"postal_code": 48105
 		}
 	]

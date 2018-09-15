@@ -34,6 +34,15 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/agency.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125829012-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-125829012-1');
+    </script>
   </head>
 
   <body id="page-top" class="<%=current_page.data.body_class%>">  
@@ -96,15 +105,13 @@
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
+              <li class="list-inline-item">
+              <% link_to '/contact.html' do %>              
+                <i class="far fa-envelope"></i>
+              <% end %>
+            </li>
             </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">            
-                <%= link_to 'Contact Us', '/contact.html' %>                                          
-              </li>            
-            </ul>
-          </div>
+          </div>         
         </div>
       </div>
     </footer>

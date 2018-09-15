@@ -1,21 +1,30 @@
-<h1>NEWS</h1>
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+<section class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">News</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+        </div>
+        <% if paginate && num_pages > 1 %>
+          <p>Page <%= page_number %> of <%= num_pages %></p>
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
+          <% if prev_page %>
+            <p><%= link_to 'Previous page', prev_page %></p>
+          <% end %>
+        <% end %>
 
-<% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <%= article.body %>
-<% end %>
+        <% page_articles.each_with_index do |article, i| %>
+          <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+          <!-- use article.summary(250) if you have Nokogiri available to show just
+              the first 250 characters -->
+          <%= article.body %>
+        <% end %>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+        <% if paginate %>
+          <% if next_page %>
+            <p><%= link_to 'Next page', next_page %></p>
+          <% end %>
+        <% end %>
+    </div>
+</div>

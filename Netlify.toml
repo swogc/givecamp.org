@@ -1,3 +1,3 @@
 redirects = [
-  {from = "/category/videos/", to = "/news/", status = 301}
+  {from = "https://wizardly-carson-bd50a1.netlify.com/category/videos/", to = "https://wizardly-carson-bd50a1.netlify.com/news/", status = 301}
 ]

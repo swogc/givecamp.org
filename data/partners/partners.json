@@ -1,0 +1,255 @@
+{
+    "categories": [
+        {
+            "name": "food",
+            "partners": [
+                {
+                    "name": "Green Mountain Coffee Roasters, Inc.",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.gmcr.com/",
+                    "contact_email": "Kelsy.Raap@gmcr.com",
+                    "contact_name": "Kelsy Raap",
+                    "logo": "/img/national-partners/GMCR_Corporate_Logo_3_Color.jpg",
+                    "blurb": "Green Mountain Coffee Roasters, Inc. (NASDAQ: GMCR) is recognized as a leader in the specialty coffee industry for its award-winning coffees, innovative brewing technology and socially responsible business practices. As part of our community involvement, we support nonprofit organizations through coffee product donations."
+                }
+            ]
+        },
+        {
+            "name": "hosting",
+            "partners": [
+                {
+                    "name": "DiscountASP.NET",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://discountasp.net",
+                    "contact_email": "Takeshi@discountasp.net",
+                    "contact_name": "Takeshi Eto",
+                    "logo": "/img/national-partners/dasplogo_tagline.jpg",
+                    "blurb": "DiscountASP.NET is a recognized global leader in advanced shared Microsoft Windows webhosting services. Through strong word-of-mouth and their commitment to ASP.NET technology and innovation, DiscountASP.NET has become the choice for affordable and feature-rich ASP.NET hosting and SQL hosting.The fine folks at DiscountASP.NET have offered FREE hosting accounts with SQL Server 2008 included to non-profits that participate in a GiveCamp event."
+                },
+                {
+                    "name": "SAAS MADE EASY",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://saasmadeeasy.com",
+                    "contact_email": "phacker@saasmadeeasy.com",
+                    "contact_name": "Paul Hacker",
+                    "logo": "/img/national-partners/saas-made-easy2.jpg",
+                    "blurb": "SAAS MADE EASY is a leader in Microsoft Exchange and Team Foundation Server hosting. We are here to make Microsoft Exchange and Team Foundation Server hosting an affordable, reliable and secure option for businesses of all sizes.SaaS Made Easy is providing free TFS hosting to all GiveCamp events before your event happens, to help trackrequirements, documents and contact information, as well as 2 weeks after the event to wrap up the deployment and transfer of code to the charity. To get your accounts set up, please reach out to SAAS MADE EASY today!"
+                },
+                {
+                    "name": "Verio Web Servers",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://verio.com",
+                    "contact_email": "mlagrotte@verio.net",
+                    "contact_name": "Matt Lagrotte",
+                    "logo": "/img/national-partners/Verio.gif",
+                    "blurb": "There is no substitute for the right foundation. Designed for the Microsoft .NET framework, new Verio Web Servers for Windows are exactly what you’d expect from a hosting pioneer with nearly 500,000 business customers and a winner of Microsoft’s 2006 Advanced Hosting Infrastructure Award."
+                },
+                {
+                    "name": "Applied Innovations",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.appliedi.net/",
+                    "contact_email": "jcoburn@appliedi.net",
+                    "contact_name": "Jess Coburn",
+                    "logo": "/img/national-partners/AI_Logo.jpg",
+                    "blurb": "A leading Windows web hosting provider since 1999, Applied Innovations is offering FREE hosting for all GiveCamp projects. Applied Innovations hosts thousands of mission-critical websites for small to medium sized businesses worldwide and offers highly competitive rates for enterprise-level services. As a longtime Microsoft Gold Certified Partner, Appliedi.net has earned a reputation for its commitment to Total Customer Satisfaction, as well as delivering a cutting-edge Windows hosting experience for a broad range of PHP, .Net, eCommerce, CMS applications and more."
+                }
+            ]
+        },
+        {
+            "name": "training",
+            "partners": [
+                {
+                    "name": "O’Reilly Media",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://oreilly.com",
+                    "contact_email": "usergroups@oreilly.com",
+                    "contact_name": "Marsee Henon",
+                    "logo": "/img/national-partners/sm_ora_logo_plain1.gif",
+                    "blurb": "O’Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences. Since 1978, O’Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying “faint signals” from the alpha geeks who are creating the future. An active participant in the technology community, the company has a long history of advocacy, meme- making, and evangelism. We’re offering volunteers a free ebook of their choice from Microsoft Press or O’Reilly Media."
+                },
+                {
+                    "name": "CODE Magazine",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.code-magazine.com/",
+                    "contact_email": "tammy@code-magazine.com",
+                    "contact_name": "Tammy Ferguson",
+                    "logo": "/img/national-partners/CODEMagazine-300x108.png",
+                    "blurb": "CODE Magazine is the Leading Independent .NET Magazine for .NET Developers. Each issue of CODE Magazine contains detailed and practical explanations of Visual Studio as well as other related Microsoft technologies. Written by independent authors who develop with the tools they write about, CODE Magazine is the trusted source of information for programmers working to improve their knowledge. Each developer that participates on a development team at a GiveCamp event will receive a FREE 1 -year subscription to CODE Magazine!"
+                },
+                {
+                    "name": "Pluralsight",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.pluralsight-training.net/microsoft/",
+                    "contact_email": "steve-woolley@pluralsight.com",
+                    "contact_name": "Steve Woolley",
+                    "logo": "/img/national-partners/PSLogoLgColor.png",
+                    "blurb": "Pluralsight provides flexible training solutions for Microsoft .NET developers that can fit any schedule or budget. The revolutionary Pluralsight On-Demand! training library provides developers with instant access to a rich collection of online training courses delivered by industry authorities. Pluralsight also holds virtual courses online and classroom trainingevents at different locations around the world, offering you focused and fast-paced learning experiences. Pluralsight is offering GiveCamp volunteers and charities free training in preparation for the event. Contact Steve Woolley for more information on how to take advantage of this great offer!"
+                },
+                {
+                    "name": "Safari Books Online",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://ssl.safaribooksonline.com/subscribe?cid=201101-my-givecamp-link",
+                    "contact_email": "tpetersen@safaribooksonline.com",
+                    "contact_name": "Troy Petersen",
+                    "logo": "/img/national-partners/Safari_Logo-web.gif",
+                    "blurb": "Safari Books Onlineis an on-demand digital library with 13,000+ books and video form from the world’s leading authors in technology and business. Technology professionals, software developers, Web designers, and business and creative professionals use Safari Books Online as their primary resource for research, problem solving, learning and certification training. Safari Books Online offers a range of product mixes and pricing programs for organizations, government agencies and individuals. Subscribers have access to thousands of books, training videos and prepublication manuscripts in one fully searchable database from 40+ leading publishers, including Cisco Press, Prentice Hall Professional, O’Reilly Media, Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, John Wiley & Sons, Elsevier, IBM Press, Adobe Press, Sun Microsystems Press, FT Press, Wharton School Publishing, Apress, Manning, New Riders, Apple Certified, Course Technology, and Splash Media."
+                }
+            ]
+        },
+        {
+            "name": "tools",
+            "partners": [
+                {
+                    "name": "Telerik",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://sitefinity.com",
+                    "contact_email": "todd.anglin@telerik.com",
+                    "contact_name": "todd.anglin@telerik.com",
+                    "logo": "/img/national-partners/Telerik.gif",
+                    "blurb": "Telerik is a leading vendor of User Interface (UI) components for ASP.NET and Windows Forms, and .NET Reporting solutions. Building on our expertise in interface development and Microsoft technologies, Telerik helps customers build applications with unparalleled richness, responsiveness and interactivity. Created with passion, Telerik products help thousands of developers every day to be more productive and deliver reliable applications under budget and on time.Sitefinity CMS is a flexible ASP.NET-based content management platform that can be used for the construction and management of commercial websites, community portals, intranets, and personal blogs. Representatives from Telerik will be on-site to support any teams that want to use Sitefinity CMS."
+                },
+
+                {
+                    "name": "Infragistics",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.infragistics.com",
+                    "contact_email": "jasonb@infragistics.com",
+                    "contact_name": "Jason Beres",
+                    "logo": "/img/national-partners/Infragistics-logo-horizontal.png",
+                    "blurb": "Infragistics is a global software company whose products and services enable companies to deliver awesome user experiences to their stakeholders. With a focus on high performance grids and data visualization, our NetAdvantage suite offers developers full-featured UI toolsets that empower them to create their best applications on any platform, including HTML5/jQuery and popular mobile platforms. Our diverse offering also includes Services, Design tools and Business Productivity solutions such as the SharePlus universal mobile SharePoint app."
+                },
+                {
+                    "name": "DevExpress",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.devexpress.com/",
+                    "contact_email": "rachelh@devexpress.com",
+                    "contact_name": "Rachel Hawley",
+                    "logo": "/img/national-partners/DevExpress-DCD-Blue.png",
+                    "blurb": "DevExpress engineers feature-complete Presentation Components, Reporting Systems, IDE Productivity Tools and Business Application Frameworks for Visual Studio. Whether targeting the WinForms, ASP.NET, WPF or Silverlight platform, developer licenses for our award-winning product line are donated completely free of charge to allow you to create innovative solutions to solve the needs of your chosen charity."
+                },
+                {
+                    "name": "xSQL Software",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://xsqlsoftware.com/",
+                    "contact_email": "givecamp@xsqlsoftware.com",
+                    "contact_name": "Naim Sula",
+                    "logo": "/img/national-partners/xSQLLogo.jpg",
+                    "blurb": "Rock solid SQL tools for software developers and database administrators. Over 30 thousand users worldwide, hundreds of thousands of hours saved. xSQL Software is pleased to offer complimentary licenses of their xSQL Object, xSQL Data Compare and Script Executor products to development teams building applications at a GiveCamp event."
+                },
+                {
+                    "name": "ComponentOne",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.componentone.com/",
+                    "contact_email": "evet@componentone.com",
+                    "contact_name": "Eve Turzillo",
+                    "logo": "/img/national-partners/componentone_logo_vertical_black.png",
+                    "blurb": "ComponentOne is offering its award winning Studio Enterprise control suite that includes 100s of controls and spans seven development platforms. This includes Studio for iPhone, a unique set of ASP.NET-based controls. With this studio, GiveCamp teams and non-profits can build micro sites or extend their current site for the iPhone, Palm Pre and Android devices. This unique mobile experience is available exclusively from ComponentOne, a well-respected component vendor in the Microsoft Visual Studio space for the past 20+ years. ComponentOne team members may be available upon request to work with the teams and lend their experience. To learn more about ComponentOne and its entire product line up; including components for ASP.NET, WinForms, WPF, Silverlight, Mobile, and ActiveX, visit www.componentone.com."
+                },
+                {
+                    "name": "Kentico CMS",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://kentico.com",
+                    "contact_email": "evab@kentico.com",
+                    "contact_name": "Eva Blazkova",
+                    "logo": "/img/national-partners/small_Kentico_2D_CMS_width200px.png",
+                    "blurb": "Kentico CMS is a versatile, extensible platform that enables you to deliver the latest Web technology to customers of all sizes. Content-oriented sites, community sites, online stores and intranetsâKentico can do it all. Use Visual Studio and your .NET Framework skills to accelerate the development process. Add out-of-the-box modules that will wow your customers with advanced functionality. Customize and integrate the site with other systems using fully open APIs. And enjoy a streamlined deployment experience that is second-to-none. Kentico is designed to maximize your productivity, so you can work smarter not harder. If you are looking for a Web development platform that delivers immediate results while supporting long-term business growth, try Kentico CMS!"
+                },
+                {
+                    "name": "Piryx",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://www.piryx.com/landing/start/",
+                    "contact_email": "jonas.lamis@piryx.com",
+                    "contact_name": "Jonas Lamis",
+                    "logo": "/img/national-partners/piryxlogo_small.png",
+                    "blurb": "Piryx is the Online Giving Platform- tying together social advocacy causes with their online social networks for giving opportunities. Causes from all over the country- political campaigns, non-profits, alumni groups, and schools- employ the Piryx toolset to reach their fundraising goals. It offers turn-key solutions that can be as easy as launching a blog or deeply integrated into any product, website, or mobile application, turning your entire social graph into a fundraising opportunity. To learn more and create your own free account visit Piryx.com."
+                },
+                {
+                    "name": "Plastic SCM",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://plasticscm.com",
+                    "contact_email": "Jorourke@codicesoftware.com",
+                    "contact_name": "James O’Rourke",
+                    "logo": "/img/national-partners/Plastic.png",
+                    "blurb": "Plastic SCM is designed for software development teams of all sizes (small, large and enterprise). Unlike other SCM and DVCS solutions, Plastic offers deep parallel development that implements a long-standing best practice known as Task Based Development. Essentially, all tasks are on their own branch. Branches are fundamentally different with Plastic too, as there’s built-in inheritance. This means by default it will inherit the source tree from its parent as well as any permissions that are in place too. Currently, it’s the only solution that supports both DVCS and VCS (centralized development). It also has a fully graphical interface and allows you to visualize your entire development practice and structure as well as drill down to individual files and explore their history with a 3D browser tree."
+                },
+                {
+                    "name": "TechSmith",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://techsmith.com",
+                    "contact_email": "b.weber@techsmith.com",
+                    "contact_name": "Betsy Weber",
+                    "logo": "/img/national-partners/TechSmith-Logo-Primary.png",
+                    "blurb": "TechSmith has seven products that do anything from take screen captures, to screen recording and managing consumer content. Our renowned product line, including Snagit, Jing, Morae, Screencast.com and the Camtasia family of products, helps users communicate clearly and simply. They make it easy to eliminate boring bullet points and paragraphs, and replace them with illuminating images and videos. Whether you want to enhance PowerPoint slides, create a training video, or record a presentation with the click of a button, TechSmith products give you professional looking, easy to share results without any difficulties."
+                },
+                {
+                    "name": "Syncfusion, Inc.",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://syncfusion.com",
+                    "contact_email": "amyc@syncfusion.com",
+                    "contact_name": "Amy Campbell",
+                    "logo": "/img/national-partners/syncfusionLogo_slogan_200_65.jpg",
+                    "blurb": "Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. Working with Syncfusion, developers can move beyond simply coding applications to delivering real business innovation â the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that todayâs business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether youâre working in Silverlight, ASP.NET MVC, WPF, ASP. NET, or Windows Forms. Please visit Syncfusion.com to download the free 30-day trial and start transforming your applications today!"
+                },
+                {
+                    "name": "/n software",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://nsoftware.com",
+                    "contact_email": "ericm@nsoftware.com",
+                    "contact_name": "Eric Madariaga",
+                    "logo": "/img/national-partners/NsoftwareLogo.png",
+                    "blurb": "/n softwareis offering complimentary licenses of their award winning Red Carpet Subscription to GiveCamp teams building applications with embedded Internet communications, secure messaging, or e-business connectivity. Red Carpet Subscriptions include reusable software components and libraries for every major development technology. Our various product suites include components for a wide range of Internet technologies from File Transfer capabilities to Internet Email, SSL and SSH security, S/MIME encryption, Secure Network Management, Digital Certificates, Credit Card Processing & ACH Payments, Compression, Instant Messaging, Shipping and Tracking, and e-business (EDI) transactions."
+                },
+                {
+                    "name": "RSSBus Data Providers",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "/img/national-partners/11/RSSBusLogo.png",
+                    "contact_email": "info@rssbus.com",
+                    "contact_name": "Casey Thompson",
+                    "logo": "/img/national-partners/RSSBusLogo.png",
+                    "blurb": "GiveCamp teams can leverage complimentary licenses of the RSSBus Data Providers to easily connect their .NET applications with Amazon Web Services, PayPal, eBay, QuickBooks, FedEx, Salesforce.com, MS CRM, Twitter, SharePoint, Azure, and many other applications and services. The RSSBus Data Providers enable bidirectional access to data with full CRUD support and can easily connect with any system using the familiar ‘Databinding’ idiom, just like you work with any SQL database."
+                },
+                {
+                    "name": "allAware",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://allaware.com/",
+                    "contact_email": "jmilgram@linxter.com",
+                    "contact_name": "Jason Milgram",
+                    "logo": "/img/national-partners/allAwareLogo_web_email1-300x69.png",
+                    "blurb": "allAware is the free, instant social network app for nonprofits, improving communication, member engagement, and providing support for mobile and web payments. Organizations can enable one-time and recurring donations to their members, as well as offer mobile and web fundraisers, such as the purchase of books, t-shirts, event tickets, or whatever the organization chooses to make available. Additionally, members can also pay bills through the app, such as membership fees and dues, school or camp fees… whatever the organization chooses to make available. In support of GiveCamp, allAware would like to provide each GiveCamp with a cash contribution to go towards meals and snacks."
+                },
+                {
+                    "name": "GitHub",
+                    "offer_text": null,
+                    "offer_url": null,
+                    "sponsor_url": "http://github.com/",
+                    "contact_email": "jared@github.com",
+                    "contact_name": "Jared Koumentis",
+                    "logo": "/img/national-partners/GitHub_Logo_SmartObject.jpg",
+                    "blurb": "GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over two million people use GitHub to build amazing things together. With the collaborative features of GitHub.com, our desktop and mobile apps, and GitHub:Enterprise, it has never been easier for individuals and teams to write better code, faster. GitHub loves helping non-profits! We will provide a lifetime Bronze organization plan, free of charge, to any non-profit organization involved in GiveCamps."
+                }
+            ]
+        },
+    ]
+}

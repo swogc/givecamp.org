@@ -22,7 +22,7 @@ page '/*.txt', layout: false
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
+  # blog.prefix = "news"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
@@ -45,6 +45,8 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+activate :directory_indexes
+
 page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
 # configure :development do
@@ -61,7 +63,7 @@ page "/feed.xml", layout: false
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript

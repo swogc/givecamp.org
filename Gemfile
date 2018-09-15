@@ -16,6 +16,3 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
-
-gem "therubyracer"
-gem "less"

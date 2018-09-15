@@ -5,8 +5,8 @@
             "partners": [
                 {
                     "name": "Green Mountain Coffee Roasters, Inc.",
-                    "offer_text": null,
-                    "offer_url": null,
+                    "offer_text": "Super Cool Stuff Here!",
+                    "offer_url": "http://www.blah.com/",
                     "sponsor_url": "http://www.gmcr.com/",
                     "contact_email": "Kelsy.Raap@gmcr.com",
                     "contact_name": "Kelsy Raap",

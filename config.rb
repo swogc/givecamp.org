@@ -57,6 +57,7 @@ require 'date'
 
 # Methods defined in the helpers block are available in templates
  helpers do
+
    def get_next_event(chapter)
      today = Date.today()
      events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
@@ -76,8 +77,6 @@ require 'date'
    def get_previous_chapters()
      prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length > 0 || false }
    end
-
-   def get_
    
  end
 

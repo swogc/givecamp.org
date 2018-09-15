@@ -1,7 +1,7 @@
 ---
 title: GitHub – our newest sponsor!
 date: 2012-10-24
-tags: announcements,misc
+tags: announcements
 org-url: http://givecamp.org/2012/10/24/github-our-newest-sponsor/
 ---
 

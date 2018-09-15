@@ -57,6 +57,7 @@ require 'date'
 
 # Methods defined in the helpers block are available in templates
  helpers do
+
    def get_next_event(chapter)
      today = Date.today()
      events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }

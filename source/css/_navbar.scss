@@ -47,8 +47,8 @@
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -67,11 +67,45 @@
       }
     }
     &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;      
+      padding: 0;
       .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0;
+      }
+      .navbar-nav {
+        .nav-item{
+          .nav-link{
+            color: lighten($secondary, 10%);
+            padding: 0.7em 1em !important;
+          }
+        }
+      }
+    }
+  }
+  .body-transparentNav{
+    .masthead{
+      box-shadow: inset 0 60px 160px rgba(20,50,20,0.7);
+    }
+    #mainNav{
+      border: none;
+      background: none;
+      .navbar-nav{
+        .nav-item{
+          .nav-link{
+            color: #fff;
+          }
+        }
+      }
+      &.navbar-shrink{
+        background-color: $white;
+        border-bottom: solid 1px $gray-300;
+
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              color: lighten($secondary, 10%);
+            }
+          }
+        }
       }
     }
   }

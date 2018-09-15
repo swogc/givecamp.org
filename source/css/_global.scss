@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   @include body-font;
+  color: $bodytext;
 }
 
 p {
@@ -44,6 +45,9 @@ section {
     text-transform: none;
     @include serif-font;
   }
+}
+body .bg-light{
+  background-color: $gray-100 !important;
 }
 @media(min-width:768px) {
   section {

@@ -1,0 +1,16 @@
+{
+	"url": "https://pittsburghgivecamp.org/",
+	"title": "Pittsburgh GiveCamp",
+	"city": "Pittsburgh",
+	"state": "PA",
+	"events":[
+		{
+			"start_date": "2018-09-22",
+			"end_date": "2018-09-24",
+			"street": "Somewhere in PA",
+			"city": "Pittsburgh",
+			"state": "PA",
+			"zip": 45678
+		}
+	]
+}

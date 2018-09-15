@@ -13,5 +13,4 @@ Lansing’s own Carla McWherter spends some time at the Ignite Lansing event tel
 
 It’s really exciting to see how much excitement has been flowing through the community around GiveCamp events!  Thanks Carla!!!
 
-http://www.youtube.com/lcc1957#p/c/AB16D233EAF4188A/5/s042FUhn64c
-YouTube – LCC1957’s Channel#p/c/AB16D233EAF4188A/5/s042FUhn64c
+[YouTube – LCC1957’s Channel#p/c/AB16D233EAF4188A/5/s042FUhn64c](http://www.youtube.com/lcc1957#p/c/AB16D233EAF4188A/5/s042FUhn64c)

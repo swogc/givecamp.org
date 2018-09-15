@@ -13,4 +13,4 @@ GiveCamp is pleased to announce that [xSQL Software](https://xsqlsoftware.com/) 
 
 Rock solid SQL tools for software developers and database administrators. Over 30 thousand users worldwide, hundreds of thousands of hours saved. xSQL Software is pleased to offer complimentary licenses of their xSQL Object, xSQL Data Compare and Script Executor products to development teams building applications at a GiveCamp event.
 
-For more information about this great offer, please contact Naim Sula at givecamp@xsqlsoftware.com.
+For more information about this great offer, please contact Naim Sula at <givecamp@xsqlsoftware.com>.

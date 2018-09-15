@@ -76,7 +76,33 @@
       </div>
     </nav>
     
-    <%= yield %>
+    <% if !current_page.data.isIndex %>
+      <% if current_page.data.sectionid %>
+      <section id="<%= current_page.data.sectionid %>">
+      <% else %>
+        <section class="bg-light">
+      <% end %>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <% if current_page.data.header != nil %>
+              <h2 class="section-heading text-uppercase"><%=current_page.data.header%></h2>
+              <% if current_page.data.subheader != nil %>
+                <h3 class="section-subheading text-muted"><%=current_page.data.subheader%></h3>
+              <% end %>
+            <% end %>            
+          </div>
+        </div>
+        <%= yield %>
+      </div>
+    </section>
+    <% else %>
+      <%= yield %>
+    <% end %>
+
+
+    
+    
     
     <!-- Footer -->
     <footer>

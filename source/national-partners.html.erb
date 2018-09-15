@@ -2,6 +2,7 @@
 header: "Partners"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 ---
+
 <div class="row">
   <div class="col-lg-12">
     <div class="entry_content">
@@ -10,9 +11,36 @@ subheader: "Lorem ipsum dolor sit amet consectetur."
         for future GiveCamps. Here’s a listing of those partners that we’ve come to value so much!
       </p>
       <p>&nbsp;</p>
-      <div id="partnersDiv">
 
-      </div>
+      <% categories = data.partners.partners.categories.select{ |category| category.name != nil && category.partners != nil && category.partners.length > 0 } %>
+      <% categories.sort_by(&:name).each do |category| %>
+        <h3 class="text-uppercase"><%= category.name %></h3><br>
+        <% partners = category.partners.select{ |partner| partner.name != nil } %>
+        <% partners.sort_by(&:name).each do |partner| %>
+          <p>
+            <% if partner.sponsor_url != nil && partner.logo != nil && partner.name != nil %>
+              <a href="<%= partner.sponsor_url %>">
+                <img title="<%= partner.name %>" src="<%= partner.logo %>" width="150px">
+              </a>
+            <% end %>
+            <% if partner.sponsor_url != nil && partner.logo == nil && partner.name != nil %>
+              <a href="<%= partner.sponsor_url %>"><h5><%= partner.name %></h5></a>
+            <% end %>
+            <br>
+            <% if partner.blurb %>
+              <%= partner.blurb %>
+            <% end %>
+            <% if partner.contact_name != nil && partner.contact_email != nil %>
+              <br><strong>Contact: <%= partner.contact_name %> (<a href="<%= partner.contact_email %>"><%= partner.contact_email %></a>) </strong>
+            <% end %>
+            <% if partner.offer_text != nil && partner.offer_url != nil %>
+              <br><a href="<%= partner.offer_url %>"><%= partner.offer_text %></a>
+            <% end %>
+          </p>
+          <br>
+        <% end %>
+        <br>
+      <% end %>
     </div>
   </div>
 </div>

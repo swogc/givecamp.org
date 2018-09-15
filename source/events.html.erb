@@ -10,15 +10,17 @@
 </div>
 
 <div class="row text-center">
-	<% sorted_chapters = data.chapters.sort_by { |chapter| chapter[:events][0][:start_date] || 99 } %>
-  <% sorted_chapters.each do |chapter| %>
-		<div class="col-md-4">
-			<span class="fa-stack fa-4x">
-				<i class="fas fa-circle fa-stack-2x text-primary"></i>
-				<i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-			</span>
-			<h4 class="service-heading"><%= chapter.title %></h4>
-			<p class="text-muted"><%= chapter.events[0].start_date %></p>
-		</div>
+	<% if false %>
+		<% sorted_chapters = data.chapters.sort_by { |chapter| chapter[:events][0][:start_date] || 99 } %>
+		<% sorted_chapters.each do |chapter| %>
+			<div class="col-md-4">
+				<span class="fa-stack fa-4x">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+				</span>
+				<h4 class="service-heading"><%= chapter.title %></h4>
+				<p class="text-muted"><%= chapter.events[0].start_date %></p>
+			</div>
+		<% end %>
 	<% end %>
 </div>

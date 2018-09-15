@@ -11,6 +11,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 # Middleman Gems
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
+gem "middleman-favicon-maker", "~> 4.1"
 
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 

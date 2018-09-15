@@ -10,7 +10,7 @@
 			"street": "Somewhere in PA",
 			"city": "Pittsburgh",
 			"state": "PA",
-			"zip": 45678
+			"postal_code": 45678
 		}
 	]
 }

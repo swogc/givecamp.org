@@ -54,11 +54,16 @@ page "/feed.xml", layout: false
 # end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+ helpers do
+   def get_next_event(chapter)
+     chapter.events.sort_by { |event| event.start_date || 99 }
+     return chapter.events[0]
+   end
+   
+   def sort_previous_events(chapter)
+     
+   end
+ end
 
 # Build-specific configuration
 configure :build do

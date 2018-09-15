@@ -1,0 +1,16 @@
+{
+	"url": "http://clevelandgivecamp.org/",
+	"title": "Cleveland GiveCamp",
+	"city": "Cleveland",
+	"state": "OH",
+	"events":[
+		{
+			"start_date": "2018-07-20",
+			"end_date": "2018-07-22",
+			"street": "1151 N Marginal Rd",
+			"city": "Cleveland",
+			"state": "OH",
+			"postal_code": 44144
+		}
+	]
+}

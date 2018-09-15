@@ -7,17 +7,17 @@
 		{
 			"start_date": "2018-09-14",
 			"end_date": "2018-09-16",
-			"street": "Washtenaw Community College",
+			"street": "4800 E Huron River Dr",
 			"city": "Ann Arbor",
 			"state": "MI",
-			"postal_code": 48108
+			"postal_code": 48105
 		},{
-			"start_date": "2017-09-14",
-			"end_date": "2017-09-16",
-			"street": "Washtenaw Community College",
+			"start_date": "2017-09-15",
+			"end_date": "2017-09-17",
+			"street": "4800 E Huron River Dr",
 			"city": "Ann Arbor",
 			"state": "MI",
-			"postal_code": 48108
+			"postal_code": 48105
 		}
 	]
 }

@@ -59,7 +59,7 @@ require 'date'
  helpers do
    def get_next_event(chapter)
      today = Date.today()
-     events = chapter.events.select { |event| event.start_date >= today.strftime('%Y-%m-%d') }
+     events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
      if events.length
        return events[0]
      end

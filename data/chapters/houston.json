@@ -1,0 +1,16 @@
+{
+		"url": "https://annarborgivecamp.org/",
+		"title": "Ann Arbor GiveCamp",
+		"city": "Houston",
+		"state": "TX",
+		"events":[
+			{
+				"start_date": "2018-09-14",
+				"end_date": "2018-09-16",
+				"street": "Washtenaw Community College",
+				"city": "Ann Arbor",
+				"state": "MI",
+				"zip": 48108
+			}
+		]
+	}

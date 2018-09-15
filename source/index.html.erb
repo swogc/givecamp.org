@@ -2,11 +2,22 @@
 pageable: true
 per_page: 10
 ---
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">GiveCamp</div>
+      <div class="intro-heading text-uppercase">A Tsunami of Goodwill</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    </div>
+  </div>
+</header>    
+
 <h2>Recent Articles</h2>
-    <ol>
-      <% blog.articles[0...10].each do |article| %>
-        <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-      <% end %>
-    </ol>
+<ol>
+  <% blog.articles[0...10].each do |article| %>
+    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+  <% end %>
+</ol>
 
 

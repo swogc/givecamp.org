@@ -22,8 +22,8 @@ page '/*.txt', layout: false
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "news"
-
+  blog.prefix = "news"
+  
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
@@ -53,16 +53,31 @@ page "/feed.xml", layout: false
 #   activate :livereload
 # end
 
+require 'date'
+
 # Methods defined in the helpers block are available in templates
  helpers do
    def get_next_event(chapter)
-     chapter.events.sort_by { |event| event.start_date || 99 }
-     return chapter.events[0]
+     today = Date.today()
+     events = chapter.events.select { |event| event.start_date >= today.strftime('%Y-%m-%d') }
+     if events.length
+       return events[0]
+     end
+     return nil
    end
    
-   def sort_previous_events(chapter)
-     
+   def get_previous_events(chapter)
+     today = Date.today()
+   	 prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
+   	 prev_events.sort_by { |event| event.start_date || '1970-01-01' }
+   	 puts prev_events
+   	 return prev_events
    end
+   
+   def get_previous_chapters()
+     prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length > 0 || false }
+   end
+   
  end
 
 # Build-specific configuration

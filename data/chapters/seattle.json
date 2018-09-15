@@ -2,7 +2,7 @@
 	"url": "http://pghgivecamp.org/",
 	"title": "Seattle GiveCamp",
 	"city": "Seattle",
-	"state": "WA",
+	"state": "Washington",
 	"latitude": 47.644510, 
 	"longitude": -122.136940,
 	"events":[
@@ -11,7 +11,7 @@
 			"end_date": "2018-10-28",
 			"street": "15255 NE 40th St",
 			"city": "Redmond",
-			"state": "WA",
+			"state": "Washington",
 			"postal_code": 98052
 		}
 	]

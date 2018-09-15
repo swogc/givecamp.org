@@ -13,11 +13,69 @@ body_class: "body-transparentNav"
   </div>
 </header>    
 
-<h2>Recent Articles</h2>
-<ol>
-  <% blog.articles[0...10].each do |article| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ol>
+<section class="bg-light" style="padding-top: 30px">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="text-center">Find Your Local Event</h3>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="text-center">Upcoming Events</h3>
+        <br>
+        <div class="row text-center">
+          <% chapters = data.chapters.select { |name, chapter| get_next_event(chapter) != nil } %>
+          <% chapters = chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
+          <% chapters = chapters.reverse! %>
+          <% chapters = chapters.slice(0,3) %>
+          <% chapters.each do |key, chapter| %>
+            <div class="col-md-4">
+              <a href="<%= chapter.url %>">
+                <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-map-pin fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading"><%= chapter.title %></h4>
+                <p class="text-muted"><%= get_next_event(chapter).start_date %></p>
+              </a>
+            </div>
+          <% end %>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="text-center">Get Involved</h3>
+        <p>Ready to become part of GiveCamp?</p>
+        <ul>
+          <li>If you are interested in running an event, check out our <%= link_to 'For Organizers', '/organizers.html' %> page.</li>
+          <li>If you are a charity looking for some extra help, check out our <%= link_to 'Get Help', '/get-help.html' %> page</li>
+          <li>If you are interested in sponsoring a local GiveCamp event, check out our <%= link_to 'For Partners', '/partners.html' %> page</li>
+          <li>If you would like to partner with GiveCamp, perhaps to provide software, tools, or other services to all of our local area GiveCamp events, contact us <%= link_to 'For Organizers', '/organizers.html' %> <a href="mailto:givecamp@live.com">via email</a> and letâs get the conversation started! We already have a number of <strong>fantastic</strong> partnerships with some <a href="/partners">amazing companies</a>, and weâd love to add your company to the list!</li>
+          <li>If youâre a developer looking to participate, use the map below to find upcoming events in your area!</li>
+        </ul>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="text-center">Recent Articles</h3>
+        <ol>
+          <% blog.articles[0...10].each do |article| %>
+            <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+          <% end %>
+        </ol>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
 

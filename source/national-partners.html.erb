@@ -1,60 +1,46 @@
-<section class="bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Partners</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="entry_content">
-          <p>
-            We have been working with some amazing partners for past GiveCamp events that have offered their services
-            for future GiveCamps. Here’s a listing of those partners that we’ve come to value so much!
-          </p>
-          <p>&nbsp;</p>
+---
+header: "Partners"
+subheader: "Lorem ipsum dolor sit amet consectetur."
+---
 
-          <% categories = data.partners.partners.categories.select{ |category| category.name != nil && category.partners != nil && category.partners.length > 0 } %>
-          <% categories.sort_by(&:name).each do |category| %>
-            <h3 class="text-uppercase"><%= category.name %></h3><br>
-            <% partners = category.partners.select{ |partner| partner.name != nil } %>
-            <% partners.sort_by(&:name).each do |partner| %>
-              <p>
-                <% if partner.sponsor_url != nil && partner.logo != nil && partner.name != nil %>
-                  <a href="<%= partner.sponsor_url %>">
-                    <img title="<%= partner.name %>" src="<%= partner.logo %>" width="150px">
-                  </a>
-                <% end %>
-                <% if partner.sponsor_url != nil && partner.logo == nil && partner.name != nil %>
-                  <a href="<%= partner.sponsor_url %>"><h5><%= partner.name %></h5></a>
-                <% end %>
-                <br>
-                <% if partner.blurb != nil %>
-                  <%= partner.blurb %>
-                <% end %>
-                <% if partner.contact_name != nil && partner.contact_email != nil %>
-                  <br><strong>Contact: <%= partner.contact_name %> (<a href="<%= partner.contact_email %>"><%= partner.contact_email %></a>) </strong>
-                <% end %>
-                <% if partner.offer_text != nil && partner.offer_url != nil %>
-                  <br><a href="<%= partner.offer_url %>"><%= partner.offer_text %></a>
-                <% end %>
-              </p>
-              <br>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="entry_content">
+      <p>
+        We have been working with some amazing partners for past GiveCamp events that have offered their services
+        for future GiveCamps. Here’s a listing of those partners that we’ve come to value so much!
+      </p>
+      <p>&nbsp;</p>
+
+      <% categories = data.partners.partners.categories.select{ |category| category.name != nil && category.partners != nil && category.partners.length > 0 } %>
+      <% categories.sort_by(&:name).each do |category| %>
+        <h3 class="text-uppercase"><%= category.name %></h3><br>
+        <% partners = category.partners.select{ |partner| partner.name != nil } %>
+        <% partners.sort_by(&:name).each do |partner| %>
+          <p>
+            <% if partner.sponsor_url != nil && partner.logo != nil && partner.name != nil %>
+              <a href="<%= partner.sponsor_url %>">
+                <img title="<%= partner.name %>" src="<%= partner.logo %>" width="150px">
+              </a>
+            <% end %>
+            <% if partner.sponsor_url != nil && partner.logo == nil && partner.name != nil %>
+              <a href="<%= partner.sponsor_url %>"><h5><%= partner.name %></h5></a>
             <% end %>
             <br>
-          <% end %>
-
-          <!-- <p><a href="http://www.devexpress.com/" target="_blank"><br>
-            <img title="DevExpress-DCD-Blue" src="/wp-content/uploads/2009/11/DevExpress-DCD-Blue.png" alt="" width="150" border="0"></a><br>
-            DevExpress engineers feature-complete Presentation Components, Reporting Systems, IDE Productivity Tools and Business Application Frameworks for Visual Studio. Whether targeting the WinForms, ASP.NET, WPF or Silverlight platform, developer licenses for our award-winning product line are donated completely free of charge to allow you to create innovative solutions to solve the needs of your chosen charity.<br>
-            <strong>Contact: Rachel Hawley (<a href="mailto:rachelh@devexpress.com">rachelh@devexpress.com</a>)</strong></p> -->
-
-          <div id="partnersDiv">
-    
-          </div>
-        </div>
-      </div>
+            <% if partner.blurb %>
+              <%= partner.blurb %>
+            <% end %>
+            <% if partner.contact_name != nil && partner.contact_email != nil %>
+              <br><strong>Contact: <%= partner.contact_name %> (<a href="<%= partner.contact_email %>"><%= partner.contact_email %></a>) </strong>
+            <% end %>
+            <% if partner.offer_text != nil && partner.offer_url != nil %>
+              <br><a href="<%= partner.offer_url %>"><%= partner.offer_text %></a>
+            <% end %>
+          </p>
+          <br>
+        <% end %>
+        <br>
+      <% end %>
     </div>
   </div>
-</section>
+</div>

@@ -1,25 +1,16 @@
 ---
+header: "Events"
+subheader: "Lorem ipsum dolor sit amet consectetur."
 leaflet: true
 ---
 
-<section class="bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Events</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <div class="container">
-		<div class="row">
-				<div class="col-lg-12 text-center">
-					<h3 class="section-heading text-uppercase">Upcoming Events</h3>
-				</div>
-		</div>
+	<div class="row">
+			<div class="col-lg-12 text-center">
+				<h3 class="section-heading text-uppercase">Upcoming Events</h3>
+			</div>
+	</div>
 </div>
     
 <div class="row text-center">
@@ -75,12 +66,15 @@ leaflet: true
 
 var giveCampIcon = L.icon({iconUrl: '/img/logos/GiveCamp.png',iconSize: [43, 25],iconAnchor: [20, 12],popupAnchor: [20, 0]});
 
-L.control.locate().addTo(map);
+var lc = L.control.locate({
+"flyTo": true,
+"locateOptions": {"maxZoom": 7}
+}).addTo(map);
 
 
 <% chapters.each do |key, chapter| %>
 	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude)  %>
-		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %></a>");
+		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");
 	<% end %>
 <% end %>
 </script>

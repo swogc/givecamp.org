@@ -14,7 +14,6 @@
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <% if current_page.data.leaflet != nil %>
-      
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin="">
@@ -34,6 +33,18 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/agency.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.ico" type="image/ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125829012-1"></script>
@@ -79,7 +90,33 @@
       </div>
     </nav>
     
-    <%= yield %>
+    <% if !current_page.data.isIndex %>
+      <% if current_page.data.sectionid %>
+      <section id="<%= current_page.data.sectionid %>">
+      <% else %>
+        <section class="bg-light">
+      <% end %>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <% if current_page.data.header != nil %>
+              <h2 class="section-heading text-uppercase"><%=current_page.data.header%></h2>
+              <% if current_page.data.subheader != nil %>
+                <h3 class="section-subheading text-muted"><%=current_page.data.subheader%></h3>
+              <% end %>
+            <% end %>            
+          </div>
+        </div>
+        <%= yield %>
+      </div>
+    </section>
+    <% else %>
+      <%= yield %>
+    <% end %>
+
+
+    
+    
     
     <!-- Footer -->
     <footer>

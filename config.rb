@@ -45,6 +45,8 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+activate :directory_indexes
+
 page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
 # configure :development do

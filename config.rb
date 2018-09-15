@@ -77,6 +77,8 @@ require 'date'
    def get_previous_chapters()
      prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length > 0 || false }
    end
+
+   def get_
    
  end
 

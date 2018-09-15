@@ -1,1 +1,5 @@
-#eventsmap { height: 765px; }
+#eventsmap { height: 500px; }
+
+.event-image, .event-details {
+	display: inline-block;
+}

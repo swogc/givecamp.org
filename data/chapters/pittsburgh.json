@@ -3,6 +3,8 @@
 	"title": "Pittsburgh GiveCamp",
 	"city": "Pittsburgh",
 	"state": "PA",
+	"latitude": 0.421854,
+	"longitude": -79.993875,
 	"events":[
 		{
 			"start_date": "2018-10-19",

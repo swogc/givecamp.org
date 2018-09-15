@@ -3,6 +3,8 @@
 	"title": "Seattle GiveCamp",
 	"city": "Seattle",
 	"state": "WA",
+	"latitude": 47.644510, 
+	"longitude": -122.136940,
 	"events":[
 		{
 			"start_date": "2018-10-26",

@@ -1,8 +1,10 @@
 {
-	"url": "https://annarborgivecamp.org/",
+	"url": "http://annarborgivecamp.org/",
 	"title": "Ann Arbor GiveCamp",
 	"city": "Ann Arbor",
 	"state": "MI",
+	"latitude": 42.265006,
+	"longitude":  -83.666473,
 	"events":[
 		{
 			"start_date": "2018-09-14",

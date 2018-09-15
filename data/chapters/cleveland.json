@@ -3,6 +3,8 @@
 	"title": "Cleveland GiveCamp",
 	"city": "Cleveland",
 	"state": "OH",
+	"latitude": 41.510554, 
+	"longitude": -81.691545,
 	"events":[
 		{
 			"start_date": "2018-07-20",

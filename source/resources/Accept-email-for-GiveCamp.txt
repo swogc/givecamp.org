@@ -1,0 +1,58 @@
+From:	Jennifer Marsman
+Sent:	Wednesday, July 15, 2009 1:04 AM
+To:	Jennifer Marsman
+Subject:	Accept email for GiveCamp
+
+Congratulations!  Your project has been accepted for the Michigan Give Camp on July 17-19.  Microsoft 
+will also be providing you with a “goodie bag” of software and technical books at the event, to aid you 
+in maintaining your code after the Give Camp ends.  
+
+Your attendance is mandatory on Friday from 6-9pm and on Sunday from 3-5pm, but I believe that in 
+your proposal, you were planning on being present throughout the weekend as needed.  
+
+The event will be structured as follows:
+*         Friday 7/17 from 5-6pm – Registration at the BE Building: Participants should plan to arrive 
+between 5 - 5:45pm, and should park in lot #4, just to the north of the Business Education (BE) 
+Building.  Registration is at the information desk just inside the northwest building entrance.  
+Please sign in and then there is a short walk to the opening ceremony in the next building 
+(there will be signs directing you where to go).
+*         Friday 7/17 from 6-7pm – Opening Ceremony: The event kick-off will be held at the 
+Washtenaw Community College LA 275.  We'll briefly go over event logistics and the non-profit 
+organizations will be introduced.  At this time, you will be invited to speak briefly (<5 min) 
+about your organization: its mission and its technology needs.  This will motivate the 
+developers and drive awareness of your organization.  The developers assigned to work on 
+your project will be announced here too, and at the conclusion of the event introduction, you 
+should plan on spending some time with your development team, clarifying your needs.  
+Attendance at this kick-off is mandatory; ideally it would be nice to have both a director of the 
+non-profit organization and the IT person who will be maintaining your code here, but one 
+person is sufficient.   
+*         Friday 7/17 from 7-9pm – Project Design: Development teams meet with charity 
+representatives. This is a chance to understand the project and scope in depth, and for the 
+charities and teams to get to know one another.  Pizza, salad, and drinks will be served during 
+this time (thanks, Domino's!).  Attendance is mandatory.  
+*         Friday evening – Sunday afternoon: Throughout the weekend, developers work on the 
+projects in a number of classrooms in the BE building at Washtenaw Community College.  
+During this time, you are strongly encouraged to hang around to provide feedback to the 
+developers if you wish (or check in periodically), but your attendance is optional.  
+*         Sunday 7/19 from 3-4pm – Code Handoff: Development teams meet with charity 
+representatives to hand off their projects to the charities (although hopefully you’ve been in 
+touch throughout the weekend).  Ask questions and make sure that you are comfortable 
+maintaining it!  Attendance is mandatory; it would be best if the person who will be 
+responsible for the code after the Give Camp comes to this portion of the event.  
+*         Sunday 7/19 from 4-5pm – Closing Ceremony: The event wrap-up will also be held at the 
+Washtenaw Community College LA 275.  At the kick-off meeting, the spotlight was on the non-
+profit organizations.  At the wrap-up, the spotlight is now on the developers, who will 
+demonstrate the website or software that they have created for you.  The event will end at 
+5pm at the latest.  Attendance at the wrap-up meeting is also mandatory.  
+
+There is a map of the Washtenaw Community College campus at 
+http://www.wccnet.edu/aboutwcc/collegeinfo/directionsandmaps/campusmap.php.  
+
+Please confirm your participation and let me know the names of the attendees from your 
+organization.  I need to know this to give your names to the security guards at Washtenaw Community 
+College, and for accurate counts when ordering food.  
+
+Thanks!
+
+The Michigan Give Camp in Ann Arbor Planning Committee 
+http://michigangivecamp.org/cms/annarbor 

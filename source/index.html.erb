@@ -4,13 +4,14 @@ per_page: 10
 body_class: "body-transparentNav"
 isIndex: true
 header: "header"
+leaflet: true
 ---
 <!-- Header -->
 <header class="masthead">
   <div class="container">
     <div class="intro-text">
-      <div class="intro-lead-in">GiveCamp</div>
-      <div class="intro-heading text-uppercase">A Tsunami of Goodwill</div>      
+      <div class="intro-lead-in"><img src="/img/logos/horiz-logo-white@2x.png" alt="GiveCamp"></div>
+      <div class="intro-heading text-uppercase">A Tsunami of Goodwill</div>
     </div>
   </div>
 </header>    
@@ -20,7 +21,7 @@ header: "header"
     <div class="row">
       <div class="col-lg-12">
         <h3 class="text-center">Find Your Local Event</h3>
-        <br>
+        <div id="eventsmap"></div>
       </div>
     </div>
     <div class="row">
@@ -75,6 +76,35 @@ header: "header"
     </div>
   </div>
 </section>
+
+
+<script type="application/javascript">
+	var map = L.map('eventsmap').setView([39.0473, -95.6752], 4);
+	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+map.scrollWheelZoom.disable();
+
+var giveCampIcon = L.icon({
+	iconUrl: '/img/givecamp-map-pin.png',
+	iconSize: [32, 36],
+	iconAnchor: [16, 36],
+	popupAnchor: [16, 36]
+});
+
+var lc = L.control.locate({
+"flyTo": true,
+"locateOptions": {"maxZoom": 7.75}
+}).addTo(map);
+
+
+<% chapters.each do |key, chapter| %>
+	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude)  %>
+		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");
+	<% end %>
+<% end %>
+</script>
 
 
 

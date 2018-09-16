@@ -72,11 +72,6 @@ leaflet: true
           <% blog.articles[0...10].slice(0,3).each do |article| %>
             <div class="col-md-4" col-sm-6 portfolio-item">
 			<a class="portfolio-link" data-toggle="modal" href="<%= article.url %>">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
 				<img class="img-fluid" src="/img/news-article.png" alt="">
             </a>
             <div class="portfolio-caption">

@@ -1,81 +1,4 @@
 [[redirects]]
-from = "/category/videos/"
-to = "/news/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/category/*"
-to = "/news/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/feed/"
-to = "/feed.xml"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/home/for-sponsors/*"
-to = "/get-involved/partners/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/home/for-charities/*"
-to = "/get-help/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/home/for-organizers/*"
-to = "/get-involved/organizers/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/cookbook/*"
-to = "/cookbook/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/partners/"
-to = "/national-partners/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/blog/*"
-to = "/news/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/faq/*"
-to = "/"
-status = 301
-force = false
-
-
-[[redirects]]
-from = "/about/*"
-to = "/about/"
-status = 301
-force = false
-
-
-[[redirects]]
 from = "/*/github-our-newest-sponsor/"
 to = "/news/github-our-newest-sponsor/"
 status = 301
@@ -127,5 +50,82 @@ force = false
 [[redirects]]
 from = "/*/xsql-added-as-new-givecamp-partner/"
 to = "/news/xsql-added-as-new-givecamp-partner/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/category/videos/"
+to = "/news/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/category/*"
+to = "/news/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/feed/"
+to = "/feed.xml"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/home/for-sponsors/*"
+to = "/get-involved/partners/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/home/for-charities/*"
+to = "/get-help/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/home/for-organizers/*"
+to = "/get-involved/organizers/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/cookbook/*"
+to = "/cookbook/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/blog/*"
+to = "/news/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/faq/*"
+to = "/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/about/*"
+to = "/about/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/20*"
+to = "/"
 status = 301
 force = false

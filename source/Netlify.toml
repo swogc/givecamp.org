@@ -1,4 +1,131 @@
 [[redirects]]
-  from = "/category/videos/"
-  to = "/news/"
-  status = 301
+from = "/category/videos/"
+to = "/news/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/category/*"
+to = "/news/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/feed/"
+to = "/feed.xml"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/home/for-sponsors/*"
+to = "/get-involved/partners/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/home/for-charities/*"
+to = "/get-help/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/home/for-organizers/*"
+to = "/get-involved/organizers/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/cookbook/*"
+to = "/cookbook/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/partners/"
+to = "/national-partners/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/blog/*"
+to = "/news/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/cookbook/*"
+to = "/cookbook/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/about/*"
+to = "/about/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/github-our-newest-sponsor/"
+to = "/news/github-our-newest-sponsor/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/how-do-i-run-a-givecamp/"
+to = "/news/how-do-i-run-a-givecamp/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/kentico-added-as-givecamp-partner/"
+to = "/news/kentico-added-as-givecamp-partner/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/pepsico-added-as-givecamp-partner/"
+to = "/news/pepsico-added-as-givecamp-partner/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/devexpress-added-as-new-givecamp-partner/"
+to = "/news/devexpress-added-as-new-givecamp-partner/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/carla-mcwherter-at-ignite-lansing/"
+to = "/news/carla-mcwherter-at-ignite-lansing/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/nsoftware-and-rssbus-added-as-new-givecamp-partners/"
+to = "/news/nsoftware-and-rssbus-added-as-new-givecamp-partners/"
+status = 301
+force = false
+
+
+[[redirects]]
+from = "/*/xsql-added-as-new-givecamp-partner/"
+to = "/news/xsql-added-as-new-givecamp-partner/"
+status = 301
+force = false

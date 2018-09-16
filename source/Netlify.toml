@@ -104,13 +104,6 @@ force = false
 
 
 [[redirects]]
-from = "/partners/"
-to = "/national-partners/"
-status = 301
-force = false
-
-
-[[redirects]]
 from = "/blog/*"
 to = "/news/"
 status = 301

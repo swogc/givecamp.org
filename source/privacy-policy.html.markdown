@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+---
+
 Effective as of September 1, 2018.
 
 ## General Statement of Privacy

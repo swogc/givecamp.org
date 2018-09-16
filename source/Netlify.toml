@@ -124,3 +124,8 @@ status = 301
 force = false
 
 
+[[redirects]]
+from = "/20*"
+to = "/"
+status = 301
+force = false

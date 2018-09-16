@@ -2,12 +2,20 @@
 # Page options, layouts, aliases and proxies
 ###
 
+set :site_title, 'GiveCamp'
+set :site_description, ''
+# set :url_root, 'https://www.aranasoft.com'
+set :url_root, 'https://wizardly-carson-bd50a1.netlify.com'
+
 # Per-page layout changes:
 #
 # With no layout
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+set :markdown_engine, :kramdown
+set :markdown, parse_block_html: true
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -47,40 +55,54 @@ end
 
 activate :directory_indexes
 
-page "/feed.xml", layout: false
-# Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
 
 require 'date'
 
 # Methods defined in the helpers block are available in templates
  helpers do
 
+
+   def get_upcoming_chapters()
+     today = Date.today()
+     upcoming_chapters = data.chapters.select { |key, chapter| get_next_event(chapter) != nil }
+     return upcoming_chapters
+   end
+
    def get_next_event(chapter)
      today = Date.today()
-     events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
-     if events.length
-       return events[0]
-     end
-     return nil
+     if chapter.has_key?("events")
+       events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
+       events.sort_by { |event| event.start_date || '3000-01-01' }
+       if events.length > 0
+         return events[0]
+       end
+    end
+    return nil
    end
 
    def get_previous_events(chapter)
-     today = Date.today()
-   	 prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
-   	 prev_events.sort_by { |event| event.start_date || '1970-01-01' }
-   	 return prev_events
+     if chapter.has_key?("events")
+       today = Date.today()
+   	   prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
+   	   if prev_events.length == 0
+   	     return []
+   	   end
+   	   prev_events.sort_by { |event| event.start_date || '1970-01-01' }
+   	   return prev_events
+   	 end
+   	 return []
    end
 
    def get_previous_chapters()
-     prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length > 0 || false }
+     prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length}
    end
 
  end
 
 configure :development do
+  ### Reload the browser automatically whenever files change
+  # activate :livereload
+
   activate :favicon_maker, :template_dir => "source/_assets/icons/", :icons => {
     "icon.png" => [
       { icon: "favicon-160x160.png" },                                  # For Opera Speed Dial (up to Opera 12; this icon is deprecated starting from Opera 15), although the optimal icon is not square but rather 256x160. If Opera is a major platform for you, you should create this icon yourself.
@@ -128,3 +150,4 @@ configure :build do
     ]
   }
 end
+

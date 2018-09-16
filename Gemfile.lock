@@ -119,7 +119,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
-  middleman (~> 4.1)
+  middleman (~> 4.2)
   middleman-blog
   middleman-favicon-maker (~> 4.1)
   nokogiri

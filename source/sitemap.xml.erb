@@ -1,0 +1,16 @@
+---
+layout: false
+directory_index: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<% pages = sitemap.resources.find_all{|res| res.source_file.match(/\.html/) && !res.data['hide_from_sitemap'] } %>
+<% pages.each do |page| %>
+  <url>
+    <loc><%= page.url.gsub('/index.html','').prepend(config.url_root) %></loc>
+    <lastmod><%= Time.new.iso8601 %></lastmod>
+    <changefreq><%= page.data.change_frequency || 'monthly' %></changefreq>
+    <priority><%= page.data.priority || '0.5' %></priority>
+  </url>
+<% end %>
+</urlset>

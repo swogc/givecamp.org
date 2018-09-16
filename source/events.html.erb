@@ -14,10 +14,9 @@ leaflet: true
 </div>
     
 <div class="row event">
-		<% chapters = data.chapters.select { |name, chapter| get_next_event(chapter) != nil } %>
-		<% chapters = chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
-		<% chapters = chapters.reverse! %>
-		<% chapters.each do |key, chapter| %>
+		<% upcoming_chapters = get_upcoming_chapters() %>
+		<% upcoming_chapters = upcoming_chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
+		<% upcoming_chapters.each do |key, chapter| %>
 				<div class="col-lg-12">
 						<div class="row">
 							<div class="event-image col-md-3">
@@ -29,7 +28,9 @@ leaflet: true
 							<div class="event-details col-md-9">
 									<h4 class="service-heading"><%= chapter.title %></h4>
 									<p><%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
-									<p><a href="<%= chapter.url %>"><%= chapter.url %></a></p>
+									<% if chapter.has_key?("url") %>
+										<p><a href="<%= chapter.url %>"><%= chapter.url %></a></p>
+									<% end %>
 									<div class="pull-right buttons">
 										<% if get_next_event(chapter).volunteer_signup_url != nil %>
 											<a href="<%= get_next_event(chapter).volunteer_signup_url %>"><button class="btn btn-md btn-volunteers">Volunteer Sign Up</button></a>
@@ -63,18 +64,22 @@ leaflet: true
 <div class="container">
 		<div class="row">
 				<div class="col-lg-12 text-center">
-					<h3 class="section-heading text-uppercase">Previous Events</h3>
+					<h3 class="section-heading text-uppercase">Chapters</h3>
 				</div>
 		</div>
 </div>
 
-<div>
+<div class="container">
 	<% prev_chapters = get_previous_chapters() %>
 	<div class="row">
 		<% prev_chapters.each do |key, chapter| %>
 				<div class="col-lg-12">
 					<a href="<%= chapter.url %>">
 						<h4 class="service-heading"><%= chapter.title %></h4>
+						<p><%= chapter.city %>, <%= chapter.state %></p>
+						<% if chapter.has_key?("url") %>
+							<p><a href="<%= chapter.url %>"><%= chapter.url %></a></p>
+						<% end %>
 					</a>
 				</div>
 		<% end %>
@@ -104,7 +109,7 @@ var lc = L.control.locate({
 "locateOptions": {"maxZoom": 7.75}
 }).addTo(map);
 
-
+<% chapters = data.chapters %>
 <% chapters.each do |key, chapter| %>
 	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude)  %>
 		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");

@@ -6,7 +6,7 @@ tags: announcements
 org-url: http://givecamp.org/2010/10/13/devexpress-added-as-new-givecamp-partner/
 ---
 
-[![](DevExpress-DCD-Blue.png)](https://www.devexpress.com/)
+[![](/img/national-partners/DevExpress-DCD-Blue.png)](https://www.devexpress.com/)
 
 I’m excited to announce that DevExpress has joined the ranks of GiveCamp partners! They’re offering free developer licenses to their amazing products if you participate as a developer in a GiveCamp event. The charity applications you create can also take advantage of the free license, so everybody wins!
 

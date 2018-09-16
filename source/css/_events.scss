@@ -1,4 +1,13 @@
-#eventsmap { height: 500px; }
+#eventsmap { 
+	height: 500px; 
+	margin-bottom: 15px;
+}
+
+#upcoming-events{
+  img{
+    max-width: 220px;
+  }
+}
 
 .event-image{
 
@@ -15,6 +24,15 @@
 		display: none;
 	}
 
+}
+
+
+.container{
+	.row{
+		.chapter-card{
+			padding-bottom: 15px;
+		}
+	}
 }
 
 .event-details {

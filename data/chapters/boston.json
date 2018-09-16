@@ -2,6 +2,19 @@
 	"url": "http://newenglandgivecamp.org/",
 	"title": "New England GiveCamp",
 	"city": "Watertown",
-    "state": "Massachusetts",
-	"events":[	]
+	"state": "Massachusetts",
+	"latitude": 42.365480, 
+	"longitude": -71.186500,
+	"events":[
+		{
+		"start_date": "2018-5-18",
+		"end_date": "2018-5-20",
+		"street": "",
+		"city": "Watertown",
+		"state": "Massachusetts",
+		"postal_code": "02472",
+		"volunteer_signup_url": null,
+		"non_profit_signup_url": null	
+		}	
+	]	
 }

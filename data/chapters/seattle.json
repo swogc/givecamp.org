@@ -1,10 +1,12 @@
 {
-	"url": "http://pghgivecamp.org/",
+	"url": "http://seattlegivecamp.org/",
 	"title": "Seattle GiveCamp",
 	"city": "Seattle",
 	"state": "Washington",
 	"latitude": 47.644510, 
 	"longitude": -122.136940,
+	"img": "seattle.jpg",
+	"img_attribution": "Public Domain",
 	"events":[
 		{
 			"start_date": "2018-10-26",
@@ -13,8 +15,8 @@
 			"city": "Redmond",
 			"state": "Washington",
 			"postal_code": 98052,
-			"volunteer_signup_url": null,
-			"non_profit_signup_url": null
+			"volunteer_signup_url": "http://seattlegivecamp.org/volunteer.aspx",
+			"non_profit_signup_url": "http://seattlegivecamp.org/nonprofit.aspx"
 		}
 	]
 }

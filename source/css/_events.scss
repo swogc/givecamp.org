@@ -1,5 +1,55 @@
 #eventsmap { height: 500px; }
 
-.event-image, .event-details {
-	display: inline-block;
+.event-image{
+
+	a: hover {
+		decoration: none
+	}
+
+	img{
+		width: 100%;
+		vertical-align: unset;
+	}
+	
+	.attribution {
+		display: none;
+	}
+
 }
+
+.event-details {
+
+	padding-left:2em;
+	
+	a: hover {
+		decoration: none
+	}
+	
+	.btn-volunteers{
+		background-color: $primary;
+		color: #fff;
+	}
+	
+	.btn-charities{
+		background-color: $secondary;
+		color: #fff;
+	}
+	
+	.btn {
+		width: 100%;
+		margin:10px;
+	}
+	
+	.buttons {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 12em;
+	}
+	
+	.service-heading {
+    margin: 0px 0px 15px 0px;
+  }
+	
+}
+

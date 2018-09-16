@@ -68,9 +68,15 @@ leaflet: true
         <br>
         <div class="row text-center">
           <% blog.articles[0...10].slice(0,3).each do |article| %>
-            <div class="col-md-4" col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item" >
 			<a class="portfolio-link" data-toggle="modal" href="<%= article.url %>">
+			<div class="portfolio-hover">
+              </div>
+			  <% if article.metadata[:page].has_key?(:image)%>
+				<img class="img-fluid" src="<%= article.metadata[:page][:image] %>" alt="">
+              <% else %>
 				<img class="img-fluid" src="/img/news-article.png" alt="">
+              <% end %>
             </a>
             <div class="portfolio-caption">
               <h4><%= article.title%></h4>

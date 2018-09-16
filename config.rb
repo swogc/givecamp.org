@@ -58,24 +58,40 @@ require 'date'
 # Methods defined in the helpers block are available in templates
  helpers do
 
+
+   def get_upcoming_chapters()
+     today = Date.today()
+     upcoming_chapters = data.chapters.select { |key, chapter| get_next_event(chapter) != nil }
+     return upcoming_chapters
+   end
+
    def get_next_event(chapter)
      today = Date.today()
-     events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
-     if events.length
-       return events[0]
-     end
-     return nil
+     if chapter.has_key?("events")
+       events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
+       events.sort_by { |event| event.start_date || '3000-01-01' }
+       if events.length > 0
+         return events[0]
+       end
+    end
+    return nil
    end
 
    def get_previous_events(chapter)
-     today = Date.today()
-   	 prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
-   	 prev_events.sort_by { |event| event.start_date || '1970-01-01' }
-   	 return prev_events
+     if chapter.has_key?("events")
+       today = Date.today()
+   	   prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
+   	   if prev_events.length == 0
+   	     return []
+   	   end
+   	   prev_events.sort_by { |event| event.start_date || '1970-01-01' }
+   	   return prev_events
+   	 end
+   	 return []
    end
 
    def get_previous_chapters()
-     prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length > 0 || false }
+     prev_chapters = data.chapters.select { |key, chapter| get_previous_events(chapter).length}
    end
 
  end

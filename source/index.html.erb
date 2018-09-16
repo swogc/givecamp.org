@@ -24,11 +24,10 @@ leaflet: true
         <h3 class="text-center">Upcoming Events</h3>
         <br>
         <div class="row text-center">
-          <% chapters = data.chapters.select { |name, chapter| get_next_event(chapter) != nil } %>
-          <% chapters = chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
-          <% chapters = chapters.reverse! %>
-          <% chapters = chapters.slice(0,3) %>
-          <% chapters.each do |key, chapter| %>
+          <% upcoming_chapters = get_upcoming_chapters() %>
+          <% upcoming_chapters = upcoming_chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
+          <% upcoming_chapters = upcoming_chapters.slice(0,3) %>
+          <% upcoming_chapters.each do |key, chapter| %>
             <div class="col-md-4">
               <a href="<%= chapter.url %>">
                 <img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
@@ -97,7 +96,7 @@ var lc = L.control.locate({
 }).addTo(map);
 
 
-<% chapters.each do |key, chapter| %>
+<% data.chapters.each do |key, chapter| %>
 	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude)  %>
 		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");
 	<% end %>

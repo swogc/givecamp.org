@@ -62,6 +62,7 @@ require 'date'
    def get_upcoming_chapters()
      today = Date.today()
      upcoming_chapters = data.chapters.select { |key, chapter| get_next_event(chapter) != nil }
+     upcoming_chapters = upcoming_chapters.sort_by { |key, chapter| [ get_next_event(chapter).start_date, chapter.title ] }
      return upcoming_chapters
    end
 

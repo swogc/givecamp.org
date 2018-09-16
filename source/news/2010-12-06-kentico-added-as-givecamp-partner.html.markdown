@@ -3,7 +3,7 @@
 title: Kentico added as GiveCamp Partner!
 date: 2010-12-06 00:00 UTC
 tags: announcements
-org-url: http://givecamp.org/2010/12/06/kentico-added-as-givecamp-partner/
+image: /img/news/small_Kentico_2D_CMS_width200px.png
 ---
 
 [![](/img/news/small_Kentico_2D_CMS_width200px.png)](https://www.kentico.com/)

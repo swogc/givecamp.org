@@ -21,24 +21,22 @@ leaflet: true
 						<div class="row">
 							<div class="event-image col-md-3">
 								<a href="<%= chapter.url %>">
-								<img src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" >
+								<img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
 								</a>
+								
 							</div>
-							<div class="event-details col-md-5">
-								<a href="<%= chapter.url %>">
+							<div class="event-details col-md-9">
 									<h4 class="service-heading"><%= chapter.title %></h4>
-									<p><%= chapter.city %>, <%= chapter.state %> <%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
-								</a>
-								<% if get_next_event(chapter).volunteer_signup_url != nil %>
-									<a href="<%=get_next_event(chapter).volunteer_signup_url %>">Volunteer Signup</a>
-								<% end %>
-								<% if get_next_event(chapter).non_profit_signup_url != nil %>
-									<br><a href="<%=get_next_event(chapter).non_profit_signup_url %>">Non-profit Signup</a>
-								<% end %>
-							</div>
-							<div class="col-md-4">
-									<button class="btn btn-md btn-primary">Volunteers</button>
-									<button class="btn btn-md btn-secondary">Charities</button>
+									<p><%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
+									<p><a href="<%= chapter.url %>"><%= chapter.url %></a></p>
+									<div class="pull-right buttons">
+										<% if get_next_event(chapter).volunteer_signup_url != nil %>
+											<a href="<%= get_next_event(chapter).volunteer_signup_url %>"><button class="btn btn-md btn-volunteers">Volunteer Sign Up</button></a>
+										<% end %>
+										<% if get_next_event(chapter).non_profit_signup_url != nil %>
+											<a href="<%= get_next_event(chapter).non_profit_signup_url %>"><button class="btn btn-md btn-charities">Charity Sign Up</button></a>
+										<% end %>
+									</div>
 							</div>
 						</div>
 				</div>

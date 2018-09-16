@@ -6,7 +6,7 @@ tags: announcements
 org-url: http://givecamp.org/2010/10/13/xsql-added-as-new-givecamp-partner/
 ---
 
-[![](/img/national-partners/xSQLLogo.jpg)](https://xsqlsoftware.com/)
+[![](/img/news/xSQLLogo.jpg)](https://xsqlsoftware.com/)
 
 
 GiveCamp is pleased to announce that [xSQL Software](https://xsqlsoftware.com/) has joined the ranks of GiveCamp Sponsors!

@@ -395,8 +395,7 @@ AM – Continue working, but start to wrap up
 
 * When organizing your event be sure to contact any [PMI](http://www.pmi.org/)
   (Project Management
-  Institute), [IIBA](http://www.theiiba.org/) (The International institute of Business
-  Analysis, [ISSA](http://www.issa.org/") (Information Systems Security Association), [AITP](http://www.aitp.org/)
+  Institute), [ISSA](http://www.issa.org/") (Information Systems Security Association), [AITP](http://www.aitp.org/)
   (Association of Information Technology Professionals) chapters or any other user groups in your
   area they
   can be invaluable resources.

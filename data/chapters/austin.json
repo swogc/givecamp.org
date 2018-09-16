@@ -4,5 +4,6 @@
 	"city": "Austin",
     "state": "Texas",
 	"latitude": 30.400810,
-	"longitude": -97.749940	
+	"longitude": -97.749940,
+	"events":[	]
 }

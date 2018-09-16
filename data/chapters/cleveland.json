@@ -13,8 +13,8 @@
 			"city": "Cleveland",
 			"state": "Ohio",
 			"postal_code": 44144,
-			"volunteer_signup_url": null,
-			"non_profit_signup_url": null
+			"volunteer_signup_url": "http://clevelandgivecamp.org/volunteer/",
+			"non_profit_signup_url": "http://clevelandgivecamp.org/nonprofits/"
 		}
 	]
 }

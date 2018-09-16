@@ -1,3 +1,12 @@
+/*/github-our-newest-sponsor/ /news/github-our-newest-sponsor/
+/*/how-do-i-run-a-givecamp/ /news/how-do-i-run-a-givecamp/
+/*/kentico-added-as-givecamp-partner/ /news/kentico-added-as-givecamp-partner/
+/*/pepsico-added-as-givecamp-partner/ /news/pepsico-added-as-givecamp-partner/
+/*/devexpress-added-as-new-givecamp-partner/ /news/devexpress-added-as-new-givecamp-partner/
+/*/carla-mcwherter-at-ignite-lansing/ /news/carla-mcwherter-at-ignite-lansing/
+/*/nsoftware-and-rssbus-added-as-new-givecamp-partners/  /news/nsoftware-and-rssbus-added-as-new-givecamp-partners/
+/*/xsql-added-as-new-givecamp-partner/ /news/xsql-added-as-new-givecamp-partner/
+
 /category/videos/	/news/	301
 /category/*	/news/	301
 /feed/ /feed.xml 301
@@ -10,12 +19,4 @@
 /faq/* / 301
 /about/* /about/ 301
 
-/*/github-our-newest-sponsor/ /news/github-our-newest-sponsor/
-/*/how-do-i-run-a-givecamp/ /news/how-do-i-run-a-givecamp/
-/*/kentico-added-as-givecamp-partner/ /news/kentico-added-as-givecamp-partner/
-/*/pepsico-added-as-givecamp-partner/ /news/pepsico-added-as-givecamp-partner/
-/*/devexpress-added-as-new-givecamp-partner/ /news/devexpress-added-as-new-givecamp-partner/
-/*/carla-mcwherter-at-ignite-lansing/ /news/carla-mcwherter-at-ignite-lansing/
-/*/nsoftware-and-rssbus-added-as-new-givecamp-partners/  /news/nsoftware-and-rssbus-added-as-new-givecamp-partners/
-/*/xsql-added-as-new-givecamp-partner/ /news/xsql-added-as-new-givecamp-partner/
 

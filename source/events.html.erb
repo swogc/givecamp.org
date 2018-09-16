@@ -12,7 +12,7 @@ leaflet: true
 		</div>
 </div>
     
-<div class="row event-details ">
+<div class="row event">
 		<% chapters = data.chapters.select { |name, chapter| get_next_event(chapter) != nil } %>
 		<% chapters = chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
 		<% chapters = chapters.reverse! %>
@@ -43,6 +43,7 @@ leaflet: true
 		<% end %>
 </div>
 
+
 <div class="container">
 		<div class="row">
 				<div class="col-lg-12 text-center">
@@ -52,7 +53,9 @@ leaflet: true
 </div>
 
 <div class="container">
+	<div class="maprow">
 		<div id="eventsmap"></div>
+	</div>
 </div>
 
 

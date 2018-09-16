@@ -12,7 +12,9 @@
 			"street": "1151 N Marginal Rd",
 			"city": "Cleveland",
 			"state": "Ohio",
-			"postal_code": 44144
+			"postal_code": 44144,
+			"volunteer_signup_url": null,
+			"non_profit_signup_url": null
 		}
 	]
 }

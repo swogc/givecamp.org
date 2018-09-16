@@ -12,7 +12,9 @@
 				"street": "5543 Legacy Drive",
 				"city": "plano",
 				"state": "Texas",
-				"postal_code": 75024
+				"postal_code": 75024,
+				"volunteer_signup_url": null,
+				"non_profit_signup_url": null
 			}
 		]
 	}

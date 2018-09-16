@@ -29,6 +29,12 @@ leaflet: true
 									<h4 class="service-heading"><%= chapter.title %></h4>
 									<p><%= chapter.city %>, <%= chapter.state %> <%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
 								</a>
+								<% if get_next_event(chapter).volunteer_signup_url != nil %>
+									<a href="<%=get_next_event(chapter).volunteer_signup_url %>">Volunteer Signup</a>
+								<% end %>
+								<% if get_next_event(chapter).non_profit_signup_url != nil %>
+									<br><a href="<%=get_next_event(chapter).non_profit_signup_url %>">Non-profit Signup</a>
+								<% end %>
 							</div>
 							<div class="col-md-4">
 									<button class="btn btn-md btn-primary">Volunteers</button>

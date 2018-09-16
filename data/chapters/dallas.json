@@ -1,22 +1,22 @@
 {
-		"url": "http://www.dallasgivecamp.org/",
-		"title": "Dallas GiveCamp",
-		"city": "Dallas",
-		"state": "Texas",
-		"latitude": 33.079490, 
-		"longitude": -96.814540,
-		"img": "dallas.jpg",
-		"img_attribution": "CC BY 2.0 Robert Hensley - Flickr https://www.flickr.com/photos/roberthensley/",
-		"events":[
-			{
-				"start_date": "2018-09-14",
-				"end_date": "2018-09-16",
-				"street": "5543 Legacy Drive",
-				"city": "Plano",
-				"state": "Texas",
-				"postal_code": 75024,
-				"volunteer_signup_url": "http://www.dallasgivecamp.org/volunteer-faq/",
-				"non_profit_signup_url": "http://www.dallasgivecamp.org/charity-faq/"
-			}
-		]
-	}
+  "url": "http://www.dallasgivecamp.org/",
+  "title": "Dallas GiveCamp",
+  "city": "Dallas",
+  "state": "Texas",
+  "latitude": 33.07949,
+  "longitude": -96.81454,
+  "img": "dallas.jpg",
+  "img_attribution": "CC BY 2.0 Robert Hensley - Flickr https://www.flickr.com/photos/roberthensley/",
+  "events": [
+    {
+      "start_date": "2018-09-14",
+      "end_date": "2018-09-16",
+      "street": "5543 Legacy Drive",
+      "city": "Plano",
+      "state": "Texas",
+      "postal_code": 75024,
+      "volunteer_signup_url": "http://www.dallasgivecamp.org/volunteer-faq/",
+      "non_profit_signup_url": "http://www.dallasgivecamp.org/charity-faq/"
+    }
+  ]
+}

@@ -12,7 +12,9 @@
 			"street": "753 E Warrington Ave",
 			"city": "Pittsburgh",
 			"state": "Pennsylvania",
-			"postal_code": 15210
+			"postal_code": 15210,
+			"volunteer_signup_url": null,
+			"non_profit_signup_url": null
 		}
 	]
 }

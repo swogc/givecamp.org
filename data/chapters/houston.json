@@ -10,7 +10,9 @@
 				"street": "Somewhere in Texas",
 				"city": "Houston",
 				"state": "Texas",
-				"postal_code": 77001
+				"postal_code": 77001,
+				"volunteer_signup_url": null,
+				"non_profit_signup_url": null
 			}
 		]
 	}

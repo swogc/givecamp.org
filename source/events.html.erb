@@ -29,6 +29,12 @@ leaflet: true
 									<p><%= chapter.city %></p>
 									<p class="text-muted"><%= get_next_event(chapter).start_date %></p>
 								</a>
+								<% if get_next_event(chapter).volunteer_signup_url != nil %>
+									<a href="<%=get_next_event(chapter).volunteer_signup_url %>">Volunteer Signup</a>
+								<% end %>
+								<% if get_next_event(chapter).non_profit_signup_url != nil %>
+									<br><a href="<%=get_next_event(chapter).non_profit_signup_url %>">Non-profit Signup</a>
+								<% end %>
 							</div>
 				</div>
 		<% end %>

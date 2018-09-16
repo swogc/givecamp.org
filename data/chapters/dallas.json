@@ -5,6 +5,8 @@
 		"state": "Texas",
 		"latitude": 33.079490, 
 		"longitude": -96.814540,
+		"img": "dallas.jpg",
+		"img_attribution": "CC BY 2.0 Robert Hensley - Flickr https://www.flickr.com/photos/roberthensley/",
 		"events":[
 			{
 				"start_date": "2018-09-14",

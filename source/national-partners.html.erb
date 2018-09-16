@@ -31,7 +31,7 @@ subheader: "Lorem ipsum dolor sit amet consectetur."
               <%= partner.blurb %>
             <% end %>
             <% if partner.contact_name != nil && partner.contact_email != nil %>
-              <br><strong>Contact: <%= partner.contact_name %> (<a href="<%= partner.contact_email %>"><%= partner.contact_email %></a>) </strong>
+              <br><strong>Contact: <%= partner.contact_name %> (<%= mail_to partner.contact_email, partner.contact_email %>) </strong>
             <% end %>
             <% if partner.offer_text != nil && partner.offer_url != nil %>
               <br><a href="<%= partner.offer_url %>"><%= partner.offer_text %></a>

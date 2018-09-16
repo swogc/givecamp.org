@@ -28,11 +28,14 @@ leaflet: true
           <% upcoming_chapters = upcoming_chapters.slice(0,3) %>
           <% upcoming_chapters.each do |key, chapter| %>
             <div class="col-md-4">
-              <a href="<%= chapter.url %>">
-                <img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
-                <h4 class="service-heading"><%= chapter.title %></h4>
-                <p><%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
-              </a>
+              <img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
+              <h4 class="service-heading"><%= chapter.title %></h4>
+              <p>
+                <%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %>
+                <% if chapter.has_key?("url") %>
+                  <a href="<%= chapter.url %>"><%= chapter.url %></a>
+                <% end %>
+              </p>
             </div>
           <% end %>
         </div>

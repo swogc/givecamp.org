@@ -33,7 +33,7 @@ leaflet: true
               <p>
                 <%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %>
                 <% if chapter.has_key?("url") %>
-                  <a href="<%= chapter.url %>"><%= chapter.url %></a>
+                  <a class="external" href="<%= chapter.url %>"><%= chapter.url %></a>
                 <% end %>
               </p>
             </div>

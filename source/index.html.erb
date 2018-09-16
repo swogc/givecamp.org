@@ -9,7 +9,7 @@ leaflet: true
 <header class="masthead">
   <div class="container">
     <div class="intro-text">
-      <div class="intro-lead-in"><img src="/img/logos/horiz-logo-white@2x.png" alt="GiveCamp"></div>
+      <div class="intro-lead-in"><img src="/img/logos/horiz-logo-white@2x.png" class="img-fluid" alt="GiveCamp"></div>
       <div class="intro-heading text-uppercase">A Tsunami of Goodwill</div>
     </div>
   </div>
@@ -70,8 +70,9 @@ leaflet: true
         <br>
         <div class="row text-center">
           <% blog.articles[0...10].slice(0,3).each do |article| %>
-            <div class="col-md-4 col-sm-6 portfolio-item" >
-			<a class="portfolio-link" data-toggle="modal" href="<%= article.url %>">
+            <div class="col-md-4" >
+			<div class="fill">
+			<a class="portfolio-link" href="<%= article.url %>">
 			<div class="portfolio-hover">
               </div>
 			  <% if article.metadata[:page].has_key?(:image)%>
@@ -79,10 +80,12 @@ leaflet: true
               <% else %>
 				<img class="img-fluid" src="/img/news-article.png" alt="">
               <% end %>
-            </a>
+            </a></div>
             <div class="portfolio-caption">
-              <h4><%= article.title%></h4>
+              <p>
+			  <h4><%= article.title%></h4>
               <p class="text-muted"><%= article.date.strftime('%B %e, %Y')%></p>
+			  </p>
             </div>
 			</div>
           <% end %>

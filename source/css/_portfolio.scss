@@ -3,13 +3,11 @@
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
-	background-color: white;
     .portfolio-link {
       position: relative;
       display: block;
       max-width: 400px;
-      min-height: 300px;
-	  margin: 0 auto;
+      margin: 0 auto;
       cursor: pointer;
       .portfolio-hover {
         position: absolute;

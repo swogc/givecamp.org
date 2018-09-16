@@ -1,9 +1,9 @@
 {
-	"url": "https://www.azgivecamp.org/",
-	"title": "Arizona GiveCamp",
-	"city": "Phoenix",
-    "state": "Arizona",
-    "latitude": 33.483162, 
-	"longitude": -112.089294,    
-	"events":[	]
+  "url": "https://www.azgivecamp.org/",
+  "title": "Arizona GiveCamp",
+  "city": "Phoenix",
+  "state": "Arizona",
+  "latitude": 33.483162,
+  "longitude": -112.089294,
+  "events": []
 }

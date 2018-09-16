@@ -7,7 +7,7 @@
 /cookbook/* /cookbook/ 301
 /partners/ /national-partners/ 301
 /blog/* /news/ 301
-/cookbook/* /cookbook/ 301
+/faq/* / 301
 /about/* /about/ 301
 
 /*/github-our-newest-sponsor/ /news/github-our-newest-sponsor/
@@ -18,3 +18,4 @@
 /*/carla-mcwherter-at-ignite-lansing/ /news/carla-mcwherter-at-ignite-lansing/
 /*/nsoftware-and-rssbus-added-as-new-givecamp-partners/  /news/nsoftware-and-rssbus-added-as-new-givecamp-partners/
 /*/xsql-added-as-new-givecamp-partner/ /news/xsql-added-as-new-givecamp-partner/
+

@@ -3,3 +3,7 @@
   to = "https://wizardly-carson-bd50a1.netlify.com/news/"
   status = 301
   
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

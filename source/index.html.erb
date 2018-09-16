@@ -31,12 +31,9 @@ leaflet: true
           <% chapters.each do |key, chapter| %>
             <div class="col-md-4">
               <a href="<%= chapter.url %>">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-map-pin fa-stack-1x fa-inverse"></i>
-                </span>
+                <img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
                 <h4 class="service-heading"><%= chapter.title %></h4>
-                <p class="text-muted"><%= get_next_event(chapter).start_date %></p>
+                <p><%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
               </a>
             </div>
           <% end %>

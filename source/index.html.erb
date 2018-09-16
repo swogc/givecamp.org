@@ -28,7 +28,9 @@ leaflet: true
           <% upcoming_chapters = upcoming_chapters.slice(0,3) %>
           <% upcoming_chapters.each do |key, chapter| %>
             <div class="col-md-4">
-              <img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
+            	<div class="fill event-image-container">
+              	<img title="<%= chapter.title %>" alt="<%= chapter.title %>" src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" copyright="<%= chapter.has_key?("img_attribution") ? chapter.img_attribution : '' %>" >
+              </div>
               <h4 class="service-heading"><%= chapter.title %></h4>
               <p>
                 <%= chapter.city %>, <%= chapter.state %><br><%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %>
@@ -68,9 +70,15 @@ leaflet: true
         <br>
         <div class="row text-center">
           <% blog.articles[0...10].slice(0,3).each do |article| %>
-            <div class="col-md-4" col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item" >
 			<a class="portfolio-link" data-toggle="modal" href="<%= article.url %>">
+			<div class="portfolio-hover">
+              </div>
+			  <% if article.metadata[:page].has_key?(:image)%>
+				<img class="img-fluid" src="<%= article.metadata[:page][:image] %>" alt="">
+              <% else %>
 				<img class="img-fluid" src="/img/news-article.png" alt="">
+              <% end %>
             </a>
             <div class="portfolio-caption">
               <h4><%= article.title%></h4>

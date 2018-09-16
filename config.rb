@@ -4,8 +4,7 @@
 
 set :site_title, 'GiveCamp'
 set :site_description, ''
-# set :url_root, 'https://www.aranasoft.com'
-set :url_root, 'https://wizardly-carson-bd50a1.netlify.com'
+set :url_root, 'https://givecamp.org'
 
 # Per-page layout changes:
 #

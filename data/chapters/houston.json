@@ -1,8 +1,10 @@
 {
-		"url": "https://houstongivecamp.org/",
+		"url": "http://houstongivecamp.org/",
 		"title": "Houston GiveCamp",
 		"city": "Houston",
 		"state": "Texas",
+		"latitude": 29.694745, 
+		"longitude": -95.326355,
 		"events":[
 			{
 				"start_date": "2017-10-21",
@@ -12,7 +14,7 @@
 				"state": "Texas",
 				"postal_code": 77001,
 				"volunteer_signup_url": null,
-				"non_profit_signup_url": null
+				"non_profit_signup_url": null				
 			}
 		]
 	}

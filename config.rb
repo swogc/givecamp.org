@@ -65,13 +65,14 @@ require 'date'
    def get_upcoming_chapters()
      today = Date.today()
      upcoming_chapters = data.chapters.select { |key, chapter| get_next_event(chapter) != nil }
+     upcoming_chapters = upcoming_chapters.sort_by { |key, chapter| [ get_next_event(chapter).start_date, chapter.title ] }
      return upcoming_chapters
    end
 
    def get_next_event(chapter)
      today = Date.today()
      if chapter.has_key?("events")
-       events = chapter.events.select { |event| event.end_date >= today.strftime('%Y-%m-%d') }
+       events = chapter.events.select { |event| event.start_date > today.strftime('%Y-%m-%d') }
        events.sort_by { |event| event.start_date || '3000-01-01' }
        if events.length > 0
          return events[0]

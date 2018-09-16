@@ -9,7 +9,7 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 
 # Middleman Gems
-gem "middleman", "~> 4.1"
+gem "middleman", "~> 4.2"
 gem "middleman-blog"
 gem "middleman-favicon-maker", "~> 4.1"
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+  <channel>
+    <title><%= config.site_title.to_s.encode(:xml => :attr).gsub(%r!\A"|"\Z!, "") %></title>
+    <description><%= config.site_description.to_s.encode(:xml => :attr).gsub(%r!\A"|"\Z!, "") %></description>
+    <link><%= config.url_root %></link>
+    <atom:link href="<%= "/feed.xml".prepend(config.url_root) %>" rel="self" type="application/rss+xml"/>
+    <pubDate><%= Time.now.rfc822 %></pubDate>
+    <lastBuildDate><%= Time.now.rfc822 %></lastBuildDate>
+    <% blog.articles[0..10].each do |post| %>
+      <item>
+        <title><%= post.title.to_s.encode(:xml => :attr).gsub(%r!\A"|"\Z!, "") %></title>
+        <description><%= post.body.to_s.encode(:xml => :attr).gsub(%r!\A"|"\Z!, "") %></description>
+        <pubDate><%= post.date.to_time.rfc822 %></pubDate>
+        <link><%= post.url.prepend(config.url_root) %></link>
+        <guid isPermaLink="true"><%= post.url.prepend(config.url_root) %></guid>
+      </item>
+    <% end %>
+  </channel>
+</rss>

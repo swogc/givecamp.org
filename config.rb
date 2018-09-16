@@ -2,6 +2,11 @@
 # Page options, layouts, aliases and proxies
 ###
 
+set :site_title, 'GiveCamp'
+set :site_description, ''
+# set :url_root, 'https://www.aranasoft.com'
+set :url_root, 'https://wizardly-carson-bd50a1.netlify.com'
+
 # Per-page layout changes:
 #
 # With no layout
@@ -47,11 +52,6 @@ end
 
 activate :directory_indexes
 
-page "/feed.xml", layout: false
-# Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
 
 require 'date'
 
@@ -81,6 +81,9 @@ require 'date'
  end
 
 configure :development do
+  ### Reload the browser automatically whenever files change
+  # activate :livereload
+
   activate :favicon_maker, :template_dir => "source/_assets/icons/", :icons => {
     "icon.png" => [
       { icon: "favicon-160x160.png" },                                  # For Opera Speed Dial (up to Opera 12; this icon is deprecated starting from Opera 15), although the optimal icon is not square but rather 256x160. If Opera is a major platform for you, you should create this icon yourself.

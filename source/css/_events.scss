@@ -1,5 +1,38 @@
 #eventsmap { height: 500px; }
 
-.event-image, .event-details {
-	display: inline-block;
+.event-image{
+
+	a: hover {
+		decoration: none
+	}
+
+	img{
+		width: 100%;
+		vertical-align: unset;
+	}
+
 }
+
+.event-details {
+
+	padding-left:2em;
+	
+	a: hover {
+		decoration: none
+	}
+	
+	.btn-primary{
+		background-color: $primary;
+	}
+	
+	.btn-secondary{
+		background-color: $secondary;
+	}
+	
+	.btn {
+		width: 100%;
+		margin:10px;
+	}
+	
+}
+

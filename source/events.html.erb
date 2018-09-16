@@ -12,24 +12,29 @@ leaflet: true
 		</div>
 </div>
     
-<div class="row">
+<div class="row event-details ">
 		<% chapters = data.chapters.select { |name, chapter| get_next_event(chapter) != nil } %>
 		<% chapters = chapters.sort_by { |name, chapter| get_next_event(chapter).start_date || '1970-01-01' } %>
 		<% chapters = chapters.reverse! %>
 		<% chapters.each do |key, chapter| %>
 				<div class="col-lg-12">
-							<div class="event-image">
+						<div class="row">
+							<div class="event-image col-md-3">
 								<a href="<%= chapter.url %>">
-								
+								<img src="/img/chapters/<%= chapter.has_key?("img") ? chapter.img : 'default-img.png' %>" >
 								</a>
 							</div>
-							<div class="event-details">
+							<div class="event-details col-md-5">
 								<a href="<%= chapter.url %>">
 									<h4 class="service-heading"><%= chapter.title %></h4>
-									<p><%= chapter.city %></p>
-									<p class="text-muted"><%= get_next_event(chapter).start_date %></p>
+									<p><%= chapter.city %>, <%= chapter.state %> <%= Date.parse(get_next_event(chapter).start_date).strftime('%b %e, %Y') %>&ndash;<%= Date.parse(get_next_event(chapter).end_date).strftime('%b %e, %Y') %> </p>
 								</a>
 							</div>
+							<div class="col-md-4">
+									<button class="btn btn-md btn-primary">Volunteers</button>
+									<button class="btn btn-md btn-secondary">Charities</button>
+							</div>
+						</div>
 				</div>
 		<% end %>
 </div>

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GiveCamp - Coding for Charity</title>
+    <title><% if current_page.data.title %><%= current_page.data.title %><% else %>Coding for Charity<% end %> | <%= config.site_title %></title>
 
     <!-- Bootstrap core CSS -->
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

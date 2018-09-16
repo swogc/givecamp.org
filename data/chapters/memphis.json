@@ -1,20 +1,20 @@
 {
-	"url": "http://www.givecampmemphis.org/",
-	"title": "GiveCamp Memphis",
-	"city": "Memphis",
-	"state": "Tennessee",
-	"latitude": 35.1495,
-	"longitude":  -90.0490,
-	"events":[
-		{
-			"start_date": "2019-02-22",
-			"end_date": "2019-02-24",
-			"street": "365 Innovation Dr",
-			"city": "Memphis",
-			"state": "Tennessee",
-			"postal_code": 38152,
-			"volunteer_signup_url": "http://www.givecampmemphis.org/volunteer",
-			"non_profit_signup_url": "http://www.givecampmemphis.org/charities-proposal-form"
-		}
-	]
+  "url": "http://www.givecampmemphis.org/",
+  "title": "GiveCamp Memphis",
+  "city": "Memphis",
+  "state": "Tennessee",
+  "latitude": 35.1495,
+  "longitude": -90.049,
+  "events": [
+    {
+      "start_date": "2019-02-22",
+      "end_date": "2019-02-24",
+      "street": "365 Innovation Dr",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "postal_code": 38152,
+      "volunteer_signup_url": "http://www.givecampmemphis.org/volunteer",
+      "non_profit_signup_url": "http://www.givecampmemphis.org/charities-proposal-form"
+    }
+  ]
 }

@@ -1,22 +1,22 @@
 {
-	"url": "http://pghgivecamp.org/",
-	"title": "Pittsburgh GiveCamp",
-	"city": "Pittsburgh",
-	"state": "Pennsylvania",
-	"latitude": 40.421854,
-	"longitude": -79.993875,
-	"img": "pittsburgh.jpg",
-	"img_attribution": "CC BY-SA 4.0 Dllu https://commons.wikimedia.org/wiki/User:Dllu",
-	"events":[
-		{
-			"start_date": "2018-10-19",
-			"end_date": "2018-10-21",
-			"street": "753 E Warrington Ave",
-			"city": "Pittsburgh",
-			"state": "Pennsylvania",
-			"postal_code": 15210,
-			"volunteer_signup_url": null,
-			"non_profit_signup_url": null
-		}
-	]
+  "url": "http://pghgivecamp.org/",
+  "title": "Pittsburgh GiveCamp",
+  "city": "Pittsburgh",
+  "state": "Pennsylvania",
+  "latitude": 40.421854,
+  "longitude": -79.993875,
+  "img": "pittsburgh.jpg",
+  "img_attribution": "CC BY-SA 4.0 Dllu https://commons.wikimedia.org/wiki/User:Dllu",
+  "events": [
+    {
+      "start_date": "2018-10-19",
+      "end_date": "2018-10-21",
+      "street": "753 E Warrington Ave",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "postal_code": 15210,
+      "volunteer_signup_url": null,
+      "non_profit_signup_url": null
+    }
+  ]
 }

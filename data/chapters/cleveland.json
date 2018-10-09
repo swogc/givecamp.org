@@ -1,0 +1,23 @@
+{
+  "url": "http://clevelandgivecamp.org/",
+  "title": "Cleveland GiveCamp",
+  "city": "Cleveland",
+  "state": "Ohio",
+  "latitude": 41.5104271,
+  "longitude": -81.6931958,
+  "img": "cleveland.jpg",
+  "img_attribution": "Carlos Javier : https://www.flickr.com/photos/carlosphotographyart/23630605473",
+  "events": [
+    {
+      "start_date": "2018-07-20",
+      "end_date": "2018-07-22",
+      "street": "1151 N Marginal Rd",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "postal_code": "44144",
+      "volunteer_signup_url": null,
+      "non_profit_signup_url": null
+    }
+  ]
+}
+

@@ -71,7 +71,7 @@ require 'date'
    def get_next_event(chapter)
      today = Date.today()
      if chapter.has_key?("events")
-       events = chapter.events.select { |event| event.start_date > today.strftime('%Y-%m-%d') }
+       events = chapter.events.select { |event| DateTime.parse(event.end_date).future? }
        events.sort_by { |event| event.start_date || '3000-01-01' }
        if events.length > 0
          return events[0]
@@ -83,7 +83,7 @@ require 'date'
    def get_previous_events(chapter)
      if chapter.has_key?("events")
        today = Date.today()
-   	   prev_events = chapter.events.select { |event| event.start_date < today.strftime('%Y-%m-%d') }
+       prev_events = chapter.events.select { |event| DateTime.parse(event.end_date).past? }
    	   if prev_events.length == 0
    	     return []
    	   end

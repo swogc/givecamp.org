@@ -1,0 +1,22 @@
+{
+  "url": "https://southwestohiogivecamp.org/",
+  "title": "Southwest Ohio GiveCamp",
+  "city": "Cincinnati",
+  "state": "Ohio",
+  "latitude": 39.3608351,
+  "longitude": -84.362890,
+  "img": "cincinnati.jpg",
+  "img_attribution": "",
+  "events": [
+    {
+      "start_date": "2018-10-19",
+      "end_date": "2018-10-21",
+      "street": "7847 VOA Park Dr",
+      "city": "West Chester",
+      "state": "Ohio",
+      "postal_code": 45069,
+      "volunteer_signup_url": "https://swogc2018.eventbrite.com/",
+      "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
+    }
+  ]
+}

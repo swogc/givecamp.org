@@ -3,8 +3,8 @@
   "title": "Austin GiveCamp",
   "city": "Austin",
   "state": "Texas",
-  "latitude": 30.4010897,
-  "longitude": -97.7517582,
+  "latitude": 30.265886,
+  "longitude": -97.749298,
   "img": "austin.jpg",
   "img_attribution": "iStock",
   "events": [
@@ -15,8 +15,18 @@
       "city": "Austin",
       "state": "Texas",
       "postal_code": 78759,
-      "volunteer_signup_url": null,
-      "non_profit_signup_url": null
+      "volunteer_signup_url": "https://www.austingivecamp.org/non-profit-form",
+      "non_profit_signup_url": "https://www.austingivecamp.org/volunteer-form"
+    },
+    {
+      "start_date": "2019-03-29",
+      "end_date": "2019-03-31",
+      "street": "500 W 2nd St",
+      "city": "Austin",
+      "state": "Texas",
+      "postal_code": 78701,
+      "volunteer_signup_url": "https://www.austingivecamp.org/non-profit-form",
+      "non_profit_signup_url": "https://www.austingivecamp.org/volunteer-form"
     }
   ]
 }

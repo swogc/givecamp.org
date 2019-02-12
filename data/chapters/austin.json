@@ -15,8 +15,8 @@
       "city": "Austin",
       "state": "Texas",
       "postal_code": 78759,
-      "volunteer_signup_url": "https://www.austingivecamp.org/non-profit-form",
-      "non_profit_signup_url": "https://www.austingivecamp.org/volunteer-form"
+      "volunteer_signup_url": "https://www.austingivecamp.org/volunteer-form",
+      "non_profit_signup_url": "https://www.austingivecamp.org/non-profit-form"
     },
     {
       "start_date": "2019-03-29",
@@ -25,8 +25,8 @@
       "city": "Austin",
       "state": "Texas",
       "postal_code": 78701,
-      "volunteer_signup_url": "https://www.austingivecamp.org/non-profit-form",
-      "non_profit_signup_url": "https://www.austingivecamp.org/volunteer-form"
+      "volunteer_signup_url": "https://www.austingivecamp.org/volunteer-form",
+      "non_profit_signup_url": "https://www.austingivecamp.org/non-profit-form"
     }
   ]
 }

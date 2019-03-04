@@ -3,7 +3,18 @@
   "title": "Arizona GiveCamp",
   "city": "Phoenix",
   "state": "Arizona",
-  "latitude": 33.483162,
-  "longitude": -112.089294,
-  "events": []
+  "latitude": 33.44866,
+  "longitude": -112.073204,
+  "events": [
+    {
+      "start_date": "2019-03-08",
+      "end_date": "2019-03-10",
+      "street": "1 N Central Ave",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "postal_code": 85004,
+      "volunteer_signup_url": "https://www.meetup.com/AZGiveCamp/events/258743318/",
+      "non_profit_signup_url": null
+    }
+  ]
 }

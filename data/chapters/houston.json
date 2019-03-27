@@ -3,8 +3,8 @@
   "title": "Houston GiveCamp",
   "city": "Houston",
   "state": "Texas",
-  "latitude": 29.694745,
-  "longitude": -95.326355,
+  "latitude": 29.7371058,
+  "longitude": -95.5806818,
   "events": [
     {
       "start_date": "2017-10-21",
@@ -15,6 +15,16 @@
       "postal_code": 77001,
       "volunteer_signup_url": null,
       "non_profit_signup_url": null
+    },
+    {
+      "start_date": "2019-04-26",
+      "end_date": "2019-04-28",
+      "street": "11490 Westheimer Rd",
+      "city": "Houston",
+      "state": "Texas",
+      "postal_code": 77077,
+      "volunteer_signup_url": "https://goo.gl/forms/p2c2YOAVL7eSht3n1",
+      "non_profit_signup_url": "https://goo.gl/forms/wP1eoavdLTEy7fiQ2"
     }
   ]
 }

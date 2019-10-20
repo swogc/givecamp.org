@@ -1,0 +1,18 @@
+{
+  "title": "GiveCamp Northwest Arkansas",
+  "url": "https://www.givecampnwa.org/",
+  "city": "Rogers",
+  "state": "Arkansas",
+  "events": [
+    {
+      "start_date": "2019-10-04",
+      "end_date": "2019-10-06",
+      "street": "1750 S Osage Springs",
+      "city": "Rogers",
+      "state": "Arkansas",
+      "postal_code": 72758,
+      "volunteer_signup_url": "https://www.givecampnwa.org/#volunteers",
+      "non_profit_signup_url": "https://www.givecampnwa.org/#needhelp"
+    }
+  ]
+}

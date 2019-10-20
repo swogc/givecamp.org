@@ -9,6 +9,16 @@
   "img_attribution": "CC BY 2.0 Robert Hensley - Flickr https://www.flickr.com/photos/roberthensley/",
   "events": [
     {
+      "start_date": "2019-10-11",
+      "end_date": "2019-10-13",
+      "street": "5543 Legacy Drive",
+      "city": "Plano",
+      "state": "Texas",
+      "postal_code": 75024,
+      "volunteer_signup_url": "https://www.eventbrite.com/e/2019-dallas-givecamp-volunteer-registration-registration-62942167718",
+      "non_profit_signup_url": "https://www.eventbrite.com/e/2019-dallas-give-camp-initial-charity-application-registration-62941432519"
+    },
+    {
       "start_date": "2018-09-14",
       "end_date": "2018-09-16",
       "street": "5543 Legacy Drive",

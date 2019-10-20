@@ -7,6 +7,16 @@
   "longitude": -71.1865,
   "events": [
     {
+      "start_date": "2019-5-3",
+      "end_date": "2019-5-5",
+      "street": "9 Galen Street",
+      "city": "Watertown",
+      "state": "Massachusetts",
+      "postal_code": "02472",
+      "volunteer_signup_url": "https://www.eventbrite.com/e/new-england-givecamp-2019-tickets-59838160549",
+      "non_profit_signup_url": "http://newenglandgivecamp.org/non-profits/"
+    },
+    {
       "start_date": "2018-5-18",
       "end_date": "2018-5-20",
       "street": "",

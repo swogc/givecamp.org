@@ -9,6 +9,16 @@
   "img_attribution": "CC BY-SA 4.0 Dllu https://commons.wikimedia.org/wiki/User:Dllu",
   "events": [
     {
+      "start_date": "2019-10-11",
+      "end_date": "2019-10-13",
+      "street": "1501 Preble Avenue",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "postal_code": 15233,
+      "volunteer_signup_url": "https://www.eventbrite.com/e/pittsburgh-givecamp-2019-tickets-32832550041",
+      "non_profit_signup_url": null
+    },
+    {
       "start_date": "2018-10-19",
       "end_date": "2018-10-21",
       "street": "753 E Warrington Ave",

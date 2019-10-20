@@ -9,6 +9,16 @@
   "img_attribution": "Carlos Javier : https://www.flickr.com/photos/carlosphotographyart/23630605473",
   "events": [
     {
+      "start_date": "2019-07-19",
+      "end_date": "2019-07-21",
+      "street": "1151 N Marginal Rd",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "postal_code": "44144",
+      "volunteer_signup_url": "https://www.eventbrite.com/e/cleveland-givecamp-2019-tickets-59718359220",
+      "non_profit_signup_url": null
+    },
+    {
       "start_date": "2018-07-20",
       "end_date": "2018-07-22",
       "street": "1151 N Marginal Rd",

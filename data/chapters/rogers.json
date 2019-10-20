@@ -3,6 +3,8 @@
   "url": "https://www.givecampnwa.org/",
   "city": "Rogers",
   "state": "Arkansas",
+  "latitude": 36.31555,
+  "longitude": -94.18093,
   "events": [
     {
       "start_date": "2019-10-04",

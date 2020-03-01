@@ -9,6 +9,16 @@
   "img_attribution": "Public Domain",
   "events": [
     {
+      "start_date": "2019-10-23",
+      "end_date": "2019-10-25",
+      "street": "15255 NE 40th St",
+      "city": "Redmond",
+      "state": "Washington",
+      "postal_code": 98052,
+      "volunteer_signup_url": "https://mailchi.mp/47dc30cc5498/volunteer_signup",
+      "non_profit_signup_url": "https://mailchi.mp/d98e0fcb1be2/nonprofit_signup"
+    },
+    {
       "start_date": "2019-10-18",
       "end_date": "2019-10-20",
       "street": "15255 NE 40th St",

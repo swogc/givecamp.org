@@ -85,8 +85,14 @@ map.scrollWheelZoom.disable();
 var giveCampIcon = L.icon({
 	iconUrl: '/img/givecamp-map-pin.png',
 	iconSize: [32, 36],
-	iconAnchor: [16, 36],
-	popupAnchor: [16, 36]
+	iconAnchor: [16, 32],
+	popupAnchor: [16, 32]
+});
+var inactiveIcon = L.icon({
+	iconUrl: '/img/inactive-map-pin.png',
+	iconSize: [32, 36],
+	iconAnchor: [16, 32],
+	popupAnchor: [16, 32]
 });
 
 var lc = L.control.locate({
@@ -96,8 +102,12 @@ var lc = L.control.locate({
 
 <% chapters = data.chapters %>
 <% chapters.each do |key, chapter| %>
-	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude)  %>
-		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");
+	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude) %>
+	  <% if chapter.respond_to?(:url) %>
+		  L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");
+    <% else %>
+		  L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: inactiveIcon}).addTo(map).bindPopup("<%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %>");
+	  <% end %>
 	<% end %>
 <% end %>
 </script>

@@ -2,5 +2,7 @@
   "title": "Lansing GiveCamp",
   "city": "Lansing",
   "state": "Michigan",
+  "latitude": 42.7087864,
+  "longitude": -84.6294671,
   "events": []
 }

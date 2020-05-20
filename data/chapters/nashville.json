@@ -2,5 +2,7 @@
   "title": "Nashville GiveCamp",
   "city": "Nashville",
   "state": "Tennessee",
+  "latitude": 36.186836,
+  "longitude": -86.9253289,
   "events": []
 }

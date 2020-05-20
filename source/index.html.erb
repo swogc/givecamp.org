@@ -110,8 +110,8 @@ map.scrollWheelZoom.disable();
 var giveCampIcon = L.icon({
 	iconUrl: '/img/givecamp-map-pin.png',
 	iconSize: [32, 36],
-	iconAnchor: [16, 36],
-	popupAnchor: [16, 36]
+	iconAnchor: [16, 33],
+	popupAnchor: [16, 33]
 });
 
 var lc = L.control.locate({
@@ -121,7 +121,7 @@ var lc = L.control.locate({
 
 
 <% data.chapters.each do |key, chapter| %>
-	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude)  %>
+	<% if chapter.respond_to?(:longitude) and chapter.respond_to?(:latitude) and chapter.respond_to?(:url) %>
 		L.marker([<%= chapter.latitude %>, <%= chapter.longitude %>], {icon: giveCampIcon}).addTo(map).bindPopup("<a href='<%= chapter.url %>'><%= chapter.title %><br><%= chapter.city %>, <%= chapter.state %></a>");
 	<% end %>
 <% end %>

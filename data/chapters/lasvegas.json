@@ -2,5 +2,7 @@
   "title": "Vegas GiveCamp",
   "city": "Las Vegas",
   "state": "Nevada",
+  "latitude": 36.1251958,
+  "longitude": -115.3150834,
   "events": []
 }

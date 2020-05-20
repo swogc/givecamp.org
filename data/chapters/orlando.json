@@ -2,5 +2,7 @@
   "title": "GiveCamp Orlando",
   "city": "Orlando",
   "state": "Florida",
+  "latitude": 28.4813018,
+  "longitude": -81.4388784,
   "events": []
 }

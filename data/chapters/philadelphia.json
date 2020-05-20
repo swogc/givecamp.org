@@ -2,5 +2,7 @@
   "title": "Philly GiveCamp",
   "city": "Philadelphia",
   "state": "Pennsylvania",
+  "latitude": 40.0026767,
+  "longitude": -75.2581114,
   "events": []
 }

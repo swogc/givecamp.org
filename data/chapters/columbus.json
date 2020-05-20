@@ -2,5 +2,7 @@
   "title": "Columbus GiveCamp",
   "city": "Columbus",
   "state": "Ohio",
+  "latitude": 39.9831302,
+  "longitude": -83.1309121,
   "events": []
 }

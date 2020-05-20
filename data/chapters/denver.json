@@ -2,5 +2,7 @@
   "title": "Colorado GiveCamp",
   "city": "Denver",
   "state": "Colorado",
+  "latitude": 39.7645187,
+  "longitude": -104.9951945,
   "events": []
 }

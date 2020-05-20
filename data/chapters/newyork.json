@@ -2,5 +2,7 @@
   "title": "NYC GiveCamp",
   "city": "New York",
   "state": "New York",
+  "latitude": 40.7591704,
+  "longitude": -74.0392707,
   "events": []
 }

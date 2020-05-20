@@ -2,5 +2,7 @@
   "title": "Tri Cities GiveCamp",
   "city": "Bristol",
   "state": "Tennessee",
+  "latitude": 36.5321235,
+  "longitude": -82.2794487,
   "events": []
 }

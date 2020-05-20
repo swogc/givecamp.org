@@ -2,5 +2,7 @@
   "title": "Indy GiveCamp",
   "city": "Indianapolis",
   "state": "Indiana",
+  "latitude": 39.7799642,
+  "longitude": -86.2728331,
   "events": []
 }

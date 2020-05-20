@@ -2,5 +2,7 @@
   "title": "NEPA GiveCamp",
   "city": "Scranton",
   "state": "Pennsylvania",
+  "latitude": 41.404637,
+  "longitude": -75.7319737,
   "events": []
 }

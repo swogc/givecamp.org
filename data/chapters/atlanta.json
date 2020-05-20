@@ -2,5 +2,7 @@
   "title": "GiveCamp Atlanta",
   "city": "Atlanta",
   "state": "Georgia",
+  "latitude": 33.7678358,
+  "longitude": -84.4906438,
   "events": []
 }

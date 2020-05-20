@@ -2,5 +2,7 @@
   "title": "Baltimore GiveCamp",
   "city": "Baltimore",
   "state": "Maryland",
+  "latitude": 39.2848183,
+  "longitude": -76.6905365,
   "events": []
 }

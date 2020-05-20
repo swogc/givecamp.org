@@ -7,6 +7,16 @@
   "longitude": -94.18093,
   "events": [
     {
+      "start_date": "2020-10-02",
+      "end_date": "2020-10-04",
+      "street": "1750 S Osage Springs",
+      "city": "Rogers",
+      "state": "Arkansas",
+      "postal_code": 72758,
+      "volunteer_signup_url": "https://www.givecampnwa.org/volunteers/",
+      "non_profit_signup_url": "https://www.givecampnwa.org/nonprofits/"
+    },
+    {
       "start_date": "2019-10-04",
       "end_date": "2019-10-06",
       "street": "1750 S Osage Springs",

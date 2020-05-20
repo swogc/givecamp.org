@@ -12,7 +12,7 @@ leaflet: true
 				</div>
 		</div>
 </div>
-    
+
 <div class="row event">
 		<% upcoming_chapters = get_upcoming_chapters() %>
 		<% upcoming_chapters.each do |key, chapter| %>
@@ -73,9 +73,6 @@ leaflet: true
 		<% end %>
 	</div>
 </div>
-
-
-
 
 <script type="application/javascript">
 	var map = L.map('eventsmap').setView([39.0473, -95.6752], 4);

@@ -9,13 +9,13 @@
   "img_attribution": "",
   "events": [
     {
-      "start_date": "2018-10-19",
-      "end_date": "2018-10-21",
+      "start_date": "2020-10-23",
+      "end_date": "2020-10-25",
       "street": "7847 VOA Park Dr",
       "city": "West Chester",
       "state": "Ohio",
       "postal_code": 45069,
-      "volunteer_signup_url": "https://swogc2018.eventbrite.com/",
+      "volunteer_signup_url": "https://swogc2020.eventbrite.com/",
       "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
     },
     {
@@ -26,6 +26,16 @@
       "state": "Ohio",
       "postal_code": 45069,
       "volunteer_signup_url": "https://swogc2019.eventbrite.com/",
+      "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
+    },
+    {	    
+      "start_date": "2018-10-19",	
+      "end_date": "2018-10-21",
+      "street": "7847 VOA Park Dr",
+      "city": "West Chester",
+      "state": "Ohio",
+      "postal_code": 45069,
+      "volunteer_signup_url": "https://swogc2018.eventbrite.com/",
       "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
     }
   ]

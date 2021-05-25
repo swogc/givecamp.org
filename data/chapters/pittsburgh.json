@@ -9,6 +9,16 @@
   "img_attribution": "CC BY-SA 4.0 Dllu https://commons.wikimedia.org/wiki/User:Dllu",
   "events": [
     {
+      "start_date": "2020-11-6",
+      "end_date": "2020-11-8",
+      "street": "1501 Preble Avenue",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "postal_code": 15233,
+      "volunteer_signup_url": null,
+      "non_profit_signup_url": null
+    },
+    {
       "start_date": "2019-10-11",
       "end_date": "2019-10-13",
       "street": "1501 Preble Avenue",

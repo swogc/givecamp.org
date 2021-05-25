@@ -7,6 +7,16 @@
   "longitude": -71.1865,
   "events": [
     {
+      "start_date": "2019-4-30",
+      "end_date": "2019-5-2",
+      "street": "9 Galen Street",
+      "city": "Watertown",
+      "state": "Massachusetts",
+      "postal_code": "02472",
+      "volunteer_signup_url": null,
+      "non_profit_signup_url": null
+    },
+    {
       "start_date": "2019-5-3",
       "end_date": "2019-5-5",
       "street": "9 Galen Street",

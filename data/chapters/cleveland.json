@@ -3,11 +3,31 @@
   "title": "Cleveland GiveCamp",
   "city": "Cleveland",
   "state": "Ohio",
-  "latitude": 41.5104271,
-  "longitude": -81.6931958,
+  "latitude": 41.4709225,
+  "longitude": -81.9374359,
   "img": "cleveland.jpg",
   "img_attribution": "Carlos Javier : https://www.flickr.com/photos/carlosphotographyart/23630605473",
   "events": [
+    {
+      "start_date": "2023-07-21",
+      "end_date": "2023-07-23",
+      "street": "28500 Clemens Road",
+      "city": "Westlake",
+      "state": "Ohio",
+      "postal_code": "44145",
+      "volunteer_signup_url": null,
+      "non_profit_signup_url": null
+    },
+    {
+      "start_date": "2022-08-12",
+      "end_date": "2022-08-14",
+      "street": "28500 Clemens Road",
+      "city": "Westlake",
+      "state": "Ohio",
+      "postal_code": "44145",
+      "volunteer_signup_url": null,
+      "non_profit_signup_url": null
+    },
     {
       "start_date": "2021-09-10",
       "end_date": "2021-09-12",

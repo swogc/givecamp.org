@@ -9,6 +9,26 @@
   "img_attribution": "",
   "events": [
     {
+      "start_date": "2022-10-14",
+      "end_date": "2022-10-16",
+      "street": "7847 VOA Park Dr",
+      "city": "West Chester",
+      "state": "Ohio",
+      "postal_code": 45069,
+      "volunteer_signup_url": "https://www.eventbrite.com/e/2022-southwest-ohio-givecamp-tickets-395875453137",
+      "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
+    },
+    {
+      "start_date": "2022-02-25",
+      "end_date": "2022-02-27",
+      "street": "2943 Riverside Drive",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "postal_code": 45226,
+      "volunteer_signup_url": "https://www.eventbrite.com/e/2021-southwest-ohio-givecamp-in-2022-registration-219890768207",
+      "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
+    },
+    {
       "start_date": "2020-10-23",
       "end_date": "2020-10-25",
       "street": "7847 VOA Park Dr",
@@ -28,8 +48,8 @@
       "volunteer_signup_url": "https://swogc2019.eventbrite.com/",
       "non_profit_signup_url": "https://southwestohiogivecamp.org/non-profit/"
     },
-    {	    
-      "start_date": "2018-10-19",	
+    {
+      "start_date": "2018-10-19",
       "end_date": "2018-10-21",
       "street": "7847 VOA Park Dr",
       "city": "West Chester",
